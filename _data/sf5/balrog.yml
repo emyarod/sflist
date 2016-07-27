@@ -1,1 +1,68 @@
 - character: Balrog
+
+  special_move:
+    - name: Dash Straight
+      input: chback forward + punch (KKB supported)
+      note: ["EX"]
+
+    - name: Charging Buffalo
+      input: (during V-Trigger with special move) forward + punch (KKB supported)
+      note: ["EX"]
+
+    - name: Dash Grand Blow
+      input: chback forward + kick (KKB supported)
+      note: ["EX"]
+
+    - name: Screw Smash
+      input: chdown up + kick
+      note: ["EX"]
+
+    - name: Bursting Buffalo
+      input: (during V-Trigger with special move) forward + kick (KKB supported)
+      note: ["EX"]
+
+    - name: Turn Punch
+      input: punch or kick (Hold any two buttons and release) (KKB supported)
+
+  unique_attack:
+    - name: Hard Smasher
+      input: mk > mp > mp mk > punch
+
+    - name: Hard Pressure
+      input: mk > mp > mp mk > kick
+
+    - name: Under Impact
+      input: lk > mk > hk
+
+    - name: Stomping Combo
+      input: down + mk > down + mk
+
+  vsystem:
+    - name: Crazy Rush
+      input: hp hk
+      note: ["V-Trigger"]
+
+    - name: KKB
+      input: mp mk or (during a KKB supported move) mp mk
+      note: ["V-Skill"]
+
+    - name: Buffalo Swing
+      input: (during KKB) punch
+
+    - name: Buffalo Pressure
+      input: (during KKB) kick
+
+    - name: Buffalo Headbutt
+      input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
+  critical_art:
+    - name: Gigaton Blow
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Dirty Bomber
+      input: forward (or neutral position) + lp lk
+
+    - name: Dirty Shot
+      input: back + lp lk
