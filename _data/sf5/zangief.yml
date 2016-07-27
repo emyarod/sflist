@@ -2,23 +2,23 @@
 
   special_move:
     - name: Screw Pile Driver
-      input: 360 punch
-      note: ["EX"]
+      input: 360 + punch
+      note: ["EX", "Command grab"]
 
     - name: Double Lariat
       input: ppp
 
     - name: Siberian Express
-      input: hcb kick
+      input: hcb + kick
       note: ["EX"]
 
     - name: Borscht Dynamite
-      input: (during up or upforward jump) 360 punch
-      note: ["EX"]
+      input: (during up or upforward jump) 360 + punch
+      note: ["EX", "Command grab"]
 
     - name: Cyclone Lariat
-      input: (during V-Trigger) hp + hk
-      note: ["Hold buttons for attack"]
+      input: (during V-Trigger) hp hk
+      note: ["Hold buttons to attack"]
 
   unique_attack:
     - name: Head Butt
@@ -32,12 +32,12 @@
 
   vsystem:
     - name: Cyclone Lariat
-      input: hp + hk
-      note: ["V-Trigger", "Hold buttons for attack"]
+      input: hp hk
+      note: ["V-Trigger", "Hold buttons to attack"]
 
     - name: Iron Muscle
-      input: mp + mk ( + forward )
-      note: ["V-Skill", "Can hold buttons", "Changes during V-Trigger"]
+      input: mp mk ( + forward )
+      note: ["V-Skill", "Hold to delay"]
 
     - name: Muscle Explosion
       input: (during guard) forward + kkk
@@ -45,11 +45,12 @@
 
   critical_art:
     - name: Bolshoi Russian Suplex
-      input: 360 360 punch
+      input: 360 360 + punch
+      note: ["Grab CA"]
 
   normal_throw:
     - name: Atomic Drop
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Captured
-      input: back + lp + lk
+      input: back + lp lk

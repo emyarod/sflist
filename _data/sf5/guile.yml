@@ -6,7 +6,7 @@
       note: ["EX"]
 
     - name: Sonic Break
-      input: (during V-Trigger) hp + hk or (during a sonic boom or sonic break) punch
+      input: (during V-Trigger) hp hk or (during a sonic boom or sonic break) punch
 
     - name: Sonic Cross
       input: (during V-Skill) chback forward + punch
@@ -58,11 +58,11 @@
 
   vsystem:
     - name: Solid Puncher
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Sonic Blade
-      input: mp + mk
+      input: mp mk
       note: ["V-Skill"]
 
     - name: Reverse Back Knuckle
@@ -78,13 +78,13 @@
 
   normal_throw:
     - name: Dragon Suplex
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Judo Throw
-      input: back + lp + lk
+      input: back + lp lk
 
     - name: Flying Mare
-      input: (in air) forward (or neutral position) + lp + lk
+      input: (in air) forward (or neutral position) + lp lk
 
     - name: Flying Buster Chop
-      input: (in air) back + lp + lk
+      input: (in air) back + lp lk

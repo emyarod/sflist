@@ -1,4 +1,4 @@
-- character: M. Bison
+- character: M. Bison (Dictator)
 
   special_move:
     - name: Psycho Blast
@@ -14,14 +14,15 @@
       note: ["EX", "Changes during V-Trigger"]
 
     - name: -- Somersault Skull Driver
-      input: ... (after Head Press hit) punch
+      input: ... > (after Head Press hits) punch
+      note: ["Changes during V-Trigger"]
 
     - name: -- Devil Reverse
-      input: ... (before Head Press hit) punch
+      input: ... > (before Head Press hits) punch
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Psycho Inferno
-      input: qcb punch
+      input: qcb + punch
       note: ["EX", "Changes during V-Trigger"]
 
   unique_attack:
@@ -36,11 +37,11 @@
 
   vsystem:
     - name: Psycho Power
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Psycho Reflect
-      input: mp + mk
+      input: mp mk
       note: ["V-Skill", "Hold buttons to absorb opponent's projectile and shoot it back"]
 
     - name: Psycho Burst
@@ -49,12 +50,12 @@
 
   critical_art:
     - name: Ultimate Psycho Crusher
-      input: qcf qcf punch
+      input: qcf qcf + punch
       note: ["Can be performed in air"]
 
   normal_throw:
     - name: Psycho Impact
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Psycho Fall
-      input: back + lp + lk
+      input: back + lp lk

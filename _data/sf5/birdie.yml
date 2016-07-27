@@ -2,7 +2,7 @@
 
   special_move:
     - name: Bull Head
-      input: qcf punch
+      input: qcf + punch
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Bull Horn
@@ -10,15 +10,15 @@
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Hanging Chain
-      input: qcf kick
-      note: ["EX", "Hold Kick for chain twirl and press Punch to cancel"]
+      input: qcf + kick (Hold to delay)
+      note: ["EX", "Press Punch to cancel during chain whirl"]
 
     - name: Killing Head
-      input: hcb punch
-      note: ["EX"]
+      input: hcb + punch
+      note: ["EX", "Command grab"]
 
     - name: Bull Revenger
-      input: hcb kick
+      input: hcb + kick
       note: ["EX"]
 
   unique_attack:
@@ -36,20 +36,20 @@
 
   vsystem:
     - name: Enjoy Time
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Break Time
-      input: mp + mk
-      note: ["V-Skill 1"]
+      input: mp mk
+      note: ["V-Skill"]
 
     - name: Banana Time
-      input: back + mp + mk
-      note: ["V-Skill 2"]
+      input: back + mp mk
+      note: ["V-Skill"]
 
     - name: Drink Time
-      input: down + mp + mk
-      note: ["V-Skill 3"]
+      input: down + mp mk
+      note: ["V-Skill"]
 
     - name: Pepper Pot
       input: (during guard) forward + ppp
@@ -57,11 +57,11 @@
 
   critical_art:
     - name: Skip To My Chain
-      input: qcf qcf punch
+      input: qcf qcf + punch
 
   normal_throw:
     - name: Bad Skull
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Bad Chain
-      input: back + lp + lk
+      input: back + lp lk

@@ -2,52 +2,52 @@
 
   special_move:
     - name: Kanzuki-Ryu Hokojutsu Seppo
-      input: qcf kick
+      input: qcf + kick
       note: ["EX"]
 
     - name: -- Tenko
-      input: ... punch
+      input: ... > punch
 
     - name: -- Orochi
-      input: ... down + punch
+      input: ... > down + punch
 
     - name: Mujinkyaku
-      input: qcb kick
+      input: qcb + kick
       note: ["EX"]
 
     - name: Ressenha
-      input: qcb punch
+      input: qcb + punch
       note: ["EX"]
 
-    - name: Senha Kusabi
-      input: qcb punch > down + kick
+    - name: -- Senha Kusabi
+      input: ... > down + kick
 
-    - name: Senha Resshu
-      input: qcb punch > up + kick
+    - name: -- Senha Resshu
+      input: ... > up + kick
 
     - name: Guren Ken
-      input: (during V-Trigger) qcf punch
+      input: (during V-Trigger) qcf + punch
 
     - name: Guren Hosho
-      input: (during V-Trigger) qcf punch > punch
+      input: (during V-Trigger) qcf + punch > punch
 
     - name: Guren Senha
-      input: (during V-Trigger) qcf punch > up + punch
+      input: (during V-Trigger) qcf + punch > up + punch
 
     - name: Guren Chochu
-      input: (during V-Trigger) qcf punch > down + punch
+      input: (during V-Trigger) qcf + punch > down + punch
 
     - name: Guren Hochu
-      input: (during V-Trigger) qcf punch > down + punch > down + punch
+      input: (during V-Trigger) qcf + punch > down + punch > down + punch
 
     - name: Guren Resshu
-      input: (during V-Trigger) qcf punch > ( down + punch ) > up + kick
+      input: (during V-Trigger) qcf + punch > ( down + punch ) > up + kick
 
     - name: Guren Kusabi
-      input: (during V-Trigger) qcf punch > ( down + punch ) > down + kick
+      input: (during V-Trigger) qcf + punch > ( down + punch ) > down + kick
 
     - name: Guren Kyoho
-      input: (during V-Trigger) qcf punch > kick
+      input: (during V-Trigger) qcf + punch > kick
 
   unique_attack:
     - name: Tsumujigari
@@ -55,11 +55,11 @@
 
   vsystem:
     - name: Kanzuki-Ryu Guren No Kata
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Myo-Oken
-      input: mp + mk
+      input: mp mk
       note: ["V-Skill", "Hold buttons to change properties"]
 
     - name: Yashagaeshi
@@ -68,11 +68,11 @@
 
   critical_art:
     - name: Kanzuki-Ryu Hadorokushiki Hasha No Kata
-      input: qcf qcf punch
+      input: qcf qcf + punch
 
   normal_throw:
     - name: Hajotsui
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Arakuma Inashi
-      input: back + lp + lk
+      input: back + lp lk

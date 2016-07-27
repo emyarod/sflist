@@ -2,15 +2,15 @@
 
   special_move:
     - name: Spinning Mixer
-      input: qcf punch
-      note: ["EX", "Properties change w/ repeated button presses", "Changes during V-Trigger"]
+      input: qcf + punch
+      note: ["EX", "Changes during V-Trigger", "Properties change with repeated button presses"]
 
     - name: Dash Spinning Mixer
       input: (during forward dash) forward + punch
-      note: ["Properties change w/ repeated button presses", "Changes during V-Trigger"]
+      note: ["Changes during V-Trigger", "Properties change with repeated button presses"]
 
     - name: Eagle Spike
-      input: qcb kick
+      input: qcb + kick
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Dash Eagle Spike
@@ -18,11 +18,11 @@
       note: ["Changes during V-Trigger"]
 
     - name: Airborne Eagle Spike
-      input: (during upforward jump) qcb kick
+      input: (during upforward jump) qcb + kick
       note: ["EX"]
 
     - name: Whirlwind Shot
-      input: qcf kick
+      input: qcf + kick
       note: ["EX"]
 
   unique_attack:
@@ -33,28 +33,28 @@
       input: forward + hp
 
     - name: Wall Jump
-      input: (during jump, near wall) upforward or downforward
+      input: (during jump near wall) upforward or downforward
 
   vsystem:
     - name: Ysaar
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Front Flip
-      input: mp + mk
-      note: ["V-Skill 1"]
+      input: mp mk
+      note: ["V-Skill"]
 
     - name: Airborne Eagle Spike
-      input: mp + mk > kick
-      note: ["V-Skill 2", "EX"]
+      input: mp mk > kick
+      note: ["V-Skill", "EX"]
 
     - name: Rolling Assault
-      input: down + mp + mk
-      note: ["V-Skill 3"]
+      input: down + mp mk
+      note: ["V-Skill"]
 
     - name: Nail Assault
-      input: down + mp + mk > kick
-      note: ["V-Skill 4"]
+      input: down + mp mk > kick
+      note: ["V-Skill"]
 
     - name: Sliding Roll
       input: (during guard) forward + ppp
@@ -62,11 +62,11 @@
 
   critical_art:
     - name: Altair
-      input: qcf qcf punch
+      input: qcf qcf + punch
 
   normal_throw:
     - name: Riding Glider
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Rising Sun
-      input: back + lp + lk
+      input: back + lp lk

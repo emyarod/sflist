@@ -2,19 +2,19 @@
 
   special_move:
     - name: Hadoken
-      input: qcf punch
+      input: qcf + punch
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Shoryuken
-      input: dpf punch
+      input: dpf + punch
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Tatsumaki Senpukyaku
-      input: qcb kick
+      input: qcb + kick
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Airborne Tatsumaki Senpukyaku
-      input: (during upforward jump) qcb kick
+      input: (during upforward jump) qcb + kick
       note: ["EX", "Changes during V-Trigger"]
 
   unique_attack:
@@ -36,12 +36,12 @@
 
   vsystem:
     - name: Heat Rush
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Quick Step
-      input: mp + mk
-      note: ["V-Skill", "Hold buttons for attack"]
+      input: mp mk (Hold buttons to attack)
+      note: ["V-Skill"]
 
     - name: Senpu Nataotoshi
       input: (during guard) forward + kkk
@@ -49,11 +49,11 @@
 
   critical_art:
     - name: Guren Enjinkyaku
-      input: qcf qcf kick
+      input: qcf qcf + kick
 
   normal_throw:
     - name: Knee Bash
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Hell Wheel
-      input: back + lp + lk
+      input: back + lp lk

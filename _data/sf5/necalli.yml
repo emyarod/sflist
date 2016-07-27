@@ -6,15 +6,15 @@
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Raging Light
-      input: dpf punch
+      input: dpf + punch
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Mask of Tlalli
-      input: hcb punch
-      note: ["EX", "Changes during V-Trigger"]
+      input: hcb + punch
+      note: ["EX", "Changes during V-Trigger", "Command grab"]
 
     - name: Valiant Rebellion
-      input: qcf kick
+      input: qcf + kick
       note: ["EX", "Changes during V-Trigger"]
 
   unique_attack:
@@ -29,11 +29,11 @@
 
   vsystem:
     - name: Torrent of Power
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Culminated Power
-      input: Neutral position or back or forward + mp + mk
+      input: Neutral position or back or forward + mp mk
       note: ["V-Skill"]
 
     - name: The Calling
@@ -42,14 +42,14 @@
 
   critical_art:
     - name: Ceremony of Honor
-      input: qcf qcf punch
+      input: qcf qcf + punch
 
     - name: Soul Offering
-      input: (during V-trigger) qcf qcf punch
+      input: (during V-trigger) qcf qcf + punch
 
   normal_throw:
     - name: Soul Sealer
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Soul Discriminator
-      input: back + lp + lk
+      input: back + lp lk

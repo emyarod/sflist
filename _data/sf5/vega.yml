@@ -1,28 +1,28 @@
-- character: Vega
+- character: Vega (Claw)
 
   special_move:
     - name: Flying Barcelona Attack
-      input: dpf kick or dpb kick > punch
+      input: dpf + kick or dpb + kick > punch
       note: ["EX"]
 
-    - name: Izuna Drop
-      input: dpf kick or dpb kick > (near opponent) lp + lk
+    - name: -- Izuna Drop
+      input: ... > (near opponent) lp lk
       note: ["EX"]
 
     - name: Grand Izuna Drop
-      input: (claw off) hcb punch
-      note: ["EX"]
+      input: (claw off) hcb + punch
+      note: ["EX", "Command grab"]
 
     - name: Crimson Terror
-      input: qcf kick
+      input: qcf + kick
       note: ["EX"]
 
     - name: Aurora Spin Edge
-      input: (claw on) qcb punch
+      input: (claw on) qcb + punch
       note: ["EX"]
 
     - name: Switching Claw
-      input: qcf punch
+      input: qcf + punch
 
   unique_attack:
     - name: Mercury Shard
@@ -32,52 +32,52 @@
       input: (claw on) forward + hp
 
     - name: Matador Flash
-      input: (claw on) hp > hp > mp + mk
+      input: (claw on) hp > hp > mp mk
       note: ["Hold buttons to attack"]
 
     - name: Matador Blitz
-      input: (claw off) mp > hk > mp + mk
+      input: (claw off) mp > hk > mp mk
       note: ["Hold buttons to attack"]
 
     - name: Wall Jump
-      input: (during jump, near wall) upforward
+      input: (during jump near wall) upforward
 
   vsystem:
     - name: Bloody Kiss - Torero
-      input: hp + hk
-      note: ["V-Trigger 1"]
+      input: hp hk
+      note: ["V-Trigger"]
 
     - name: Bloody Kiss - Rojo
-      input: down + hp + hk
-      note: ["V-Trigger 2"]
+      input: down + hp hk
+      note: ["V-Trigger"]
 
     - name: Bloody Kiss - Azul
-      input: (during upforward jump) hp + hk
-      note: ["V-Trigger 3"]
+      input: (during upforward jump) hp hk
+      note: ["V-Trigger"]
 
     - name: Matador Turn
-      input: mp + mk
+      input: mp mk
       note: ["V-Skill", "Hold buttons to attack"]
 
     - name: Backslash
       input: (during guard) forward + ppp
-      note: ["V-Reversal 1"]
+      note: ["V-Reversal"]
 
     - name: Short Backslash
       input: (during guard) forward + kkk
-      note: ["V-Reversal 2"]
+      note: ["V-Reversal"]
 
 
   critical_art:
     - name: Bloody Rain
-      input: qcf qcf punch or qcb qcb punch
+      input: qcf qcf + punch or qcb qcb + punch
 
   normal_throw:
     - name: Rainbow Suplex
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Crescent Line
-      input: back + lp + lk
+      input: back + lp lk
 
     - name: Stardust Shot
-      input: (in air) lp + lk
+      input: (in air) lp lk

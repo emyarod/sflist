@@ -2,33 +2,35 @@
 
   special_move:
     - name: Spiral Arrow
-      input: qcf kick
+      input: qcf + kick
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Cannon Spike
-      input: dpf kick
+      input: dpf + kick
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Cannon Strike
-      input: (during upforward jump) qcb kick
+      input: (during upforward jump) qcb + kick
       note: ["EX", "Changes during V-Trigger"]
 
     - name: Hooligan Combination
-      input: hcf punch
+      input: hcf + punch
       note: ["EX"]
 
-    - name: -- Razor Edge Slicer
-      input: ... (neutral position)
+    - name: -- Lazer Edge Slicer
+      input: ... > (no additional input)
       note: ["EX"]
 
     - name: -- Fatal Leg Twister
-      input: ... (near opponent on the ground) lp + lk
+      input: ... > (close to ground) lp lk
+      note: ["Command grab"]
 
     - name: -- Cross Scissors Pressure
-      input: ... (near opponent in the air) lp + lk
+      input: ... > (close to opponent in air) lp lk
+      note: ["Command grab"]
 
     - name: -- Cannon Strike
-      input: ... kick
+      input: ... > kick
       note: ["Changes during V-Trigger"]
 
   unique_attack:
@@ -43,11 +45,11 @@
 
   vsystem:
     - name: Delta Drive
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Axel Spin Knuckle
-      input: mp + mk
+      input: mp mk
       note: ["V-Skill"]
 
     - name: Strike Back
@@ -56,11 +58,11 @@
 
   critical_art:
     - name: Cross Stinger Assault
-      input: qcf qcf kick
+      input: qcf qcf + kick
 
   normal_throw:
     - name: Gyro Clipper
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Delta Through
-      input: back + lp + lk
+      input: back + lp lk

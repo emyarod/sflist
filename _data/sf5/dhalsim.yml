@@ -2,15 +2,15 @@
 
   special_move:
     - name: Yoga Fire
-      input: qcf punch
+      input: qcf + punch
       note: ["EX"]
 
     - name: Yoga Flame
-      input: hcb punch
+      input: hcb + punch
       note: ["EX"]
 
     - name: Yoga Gale
-      input: (during up or upforward jump) hcb punch
+      input: (during up or upforward jump) hcb + punch
       note: ["EX"]
 
     - name: Yoga Teleport
@@ -32,16 +32,16 @@
 
   vsystem:
     - name: Yoga Burner
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Yoga Float
-      input: mp + mk or forward + mp + mk
-      note: ["V-Skill 1"]
+      input: forward or neutral + mp mk
+      note: ["V-Skill"]
 
     - name: Yoga Float (Airborne)
-      input: (during jump) mp + mk
-      note: ["V-Skill 2"]
+      input: (during jump) mp mk
+      note: ["V-Skill"]
 
     - name: Yoga Mala
       input: (during guard) forward + ppp
@@ -49,12 +49,12 @@
 
   critical_art:
     - name: Yoga Sunburst
-      input: qcf qcf punch
-      note: ["Can hold button", "Can be performed in air"]
+      input: qcf qcf + punch
+      note: ["Hold buttons to change properties", "Can be performed in air"]
 
   normal_throw:
     - name: Yoga Rocket
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Yoga Hoop
-      input: back + lp + lk
+      input: back + lp lk

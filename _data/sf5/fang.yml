@@ -14,7 +14,7 @@
       note: ["EX"]
 
     - name: Nikankyaku
-      input: dpf kick
+      input: dpf + kick
       note: ["EX"]
 
   unique_attack:
@@ -26,11 +26,11 @@
 
   vsystem:
     - name: Dokunomu
-      input: hp + hk
+      input: hp hk
       note: ["V-Trigger"]
 
     - name: Nishodoku
-      input: mp + mk
+      input: mp mk
       note: ["V-Skill"]
 
     - name: Nikaiho
@@ -39,11 +39,11 @@
 
   critical_art:
     - name: Shishiruirui
-      input: qcf qcf punch
+      input: qcf qcf + punch
 
   normal_throw:
     - name: Shimonshu
-      input: forward (or neutral position) + lp + lk
+      input: forward (or neutral position) + lp lk
 
     - name: Kyoshitsugeki
-      input: back + lp + lk
+      input: back + lp lk

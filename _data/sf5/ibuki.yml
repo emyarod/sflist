@@ -24,10 +24,11 @@
       input: punch (hold and release)
 
     - name: Airborne Kunai Ikkinage
-      input: (during jump) punch (hold and release)
+      input: (during jump) kick (hold and release)
 
     - name: Kunai Hoju
       input: hcb + kick
+      note: ["Hold to replenish more kunai"]
 
     - name: Rokushaku Horokudama (Akebono)
       input: (during V-Trigger) hp + hk

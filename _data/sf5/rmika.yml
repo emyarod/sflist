@@ -2,20 +2,20 @@
 
   special_move:
     - name: Shooting Peach
-      input: qcf punch
+      input: qcf + punch
       note: ["EX"]
 
     - name: Wingless Airplane
-      input: qcf kick
+      input: qcf + kick
       note: ["EX", "Gains V-Skill effect"]
 
     - name: Rainbow Typhoon
-      input: hcb punch
-      note: ["EX", "Gains V-Skill effect"]
+      input: hcb + punch
+      note: ["EX", "Gains V-Skill effect", "Command grab"]
 
     - name: Brimstone
-      input: hcb kick
-      note: ["EX", "Gains V-Skill effect"]
+      input: hcb + kick
+      note: ["EX", "Gains V-Skill effect", "Command grab"]
 
   unique_attack:
     - name: Stomp Chop
@@ -30,30 +30,28 @@
     - name: Passion Press
       input: forward or back + mp
 
-    - name: Passion Rope Throw (Forward)
-      input: forward or back + mp > forward + mp
-      note: ["Triggered on hit or guard"]
+    - name: -- Passion Rope Throw (Forward)
+      input: ... > forward + mp
 
-    - name: Passion Rope Throw (Backward)
-      input: forward or back + mp > back + mp
-      note: ["Triggered on hit or guard"]
+    - name: -- Passion Rope Throw (Backward)
+      input: ... > back + mp
 
   vsystem:
     - name: Nadeshiko (Above)
-      input: hp + hk
-      note: ["V-Trigger 1", "Hold buttons to delay"]
+      input: hp hk
+      note: ["V-Trigger", "Hold to delay"]
 
     - name: Nadeshiko (Front)
-      input: back + hp + hk
-      note: ["V-Trigger 2", "Hold buttons to delay"]
+      input: back + hp hk
+      note: ["V-Trigger", "Hold to delay"]
 
     - name: Nadeshiko (Behind)
-      input: forward + hp + hk
-      note: ["V-Trigger 3", "Hold buttons to delay"]
+      input: forward + hp hk
+      note: ["V-Trigger", "Hold to delay"]
 
     - name: Heated Mic Performance
-      input: mp + mk
-      note: ["V-Skill", "Hold buttons to charge"]
+      input: mp mk
+      note: ["V-Skill", "Hold buttons to change properties"]
 
     - name: Peach Gator
       input: (during guard) forward + kkk
@@ -61,14 +59,14 @@
 
   critical_art:
     - name: Peach Assault
-      input: qcb qcb punch
-      note: ["Gains V-Skill effect"]
+      input: qcb qcb + punch
+      note: ["Grab CA", "Gains V-Skill effect"]
 
   normal_throw:
     - name: Daydream Headlock
-      input: forward (or neutral position) + lp + lk
-      note: ["Gains V-Skill effect", "Changes with opponent's state"]
+      input: forward (or neutral position) + lp lk
+      note: ["Gains V-Skill effect"]
 
     - name: Sell Down
-      input: back + lp + lk
+      input: back + lp lk
       note: ["Gains V-Skill effect"]
