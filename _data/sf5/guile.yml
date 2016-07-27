@@ -86,5 +86,5 @@
     - name: Flying Mare
       input: (in air) forward (or neutral position) + lp + lk
 
-    - name: Ryuseiraku
+    - name: Flying Buster Chop
       input: (in air) back + lp + lk
