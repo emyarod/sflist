@@ -42,7 +42,7 @@
 
     - name: Psycho Reflect
       input: mp mk
-      note: ["V-Skill", "Hold buttons to absorb opponent's projectile and shoot it back"]
+      note: ["V-Skill", "Hold buttons to change properties"]
 
     - name: Psycho Burst
       input: (during guard) forward + ppp
