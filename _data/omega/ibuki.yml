@@ -57,7 +57,7 @@
 
   normal_throw:
     - name: Yami Kazura
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Uki Yami
       input: back + lp + lk

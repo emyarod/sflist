@@ -69,7 +69,7 @@
 
   normal_throw:
     - name: Ragou Souha
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Shuretto
       input: back + lp + lk

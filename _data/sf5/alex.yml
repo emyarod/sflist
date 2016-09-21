@@ -3,35 +3,35 @@
   special_move:
     - name: Flash Chop
       input: qcf + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Slash Elbow
       input: chback forward + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Air Knee Smash
       input: dpf + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Power Bomb
       input: hcb + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Power Drop
       input: hcb + punch
-      note: ["EX", "Only triggers with hp Flash Chop or Sledge Hammer"]
+      note: ['EX', 'Only triggers with hp Flash Chop or Sledge Hammer']
 
     - name: Air Stampede
       input: chdown up + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Head Crush
       input: chdown up + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Sledge Hammer
       input: (during V-Trigger) hp hk
-      note: ["Hold to delay"]
+      note: ['Hold to delay']
 
   unique_attack:
     - name: Chop
@@ -46,15 +46,15 @@
   vsystem:
     - name: Rage Shift
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger']
 
     - name: Overhaul
       input: mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Big Boot
       input: (during guard) forward + kkk
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Heavy Hammer
@@ -62,7 +62,7 @@
 
   normal_throw:
     - name: Face-Crush Chop
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Leg Tomahawk
       input: back + lp lk

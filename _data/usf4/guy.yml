@@ -46,7 +46,7 @@
 
   normal_throw:
     - name: Grab Throw
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Shoulder Throw
       input: back + lp + lk

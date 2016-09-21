@@ -53,7 +53,7 @@
 
   normal_throw:
     - name: Head Butt
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Triple Threat
       input: back + lp + lk

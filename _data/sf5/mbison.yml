@@ -55,7 +55,7 @@
 
   normal_throw:
     - name: Psycho Impact
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Psycho Fall
       input: back + lp lk

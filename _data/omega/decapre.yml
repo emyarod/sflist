@@ -35,7 +35,7 @@
 
   normal_throw:
     - name: Concealed Kill Advance
-      input: Forward (or neutral position) + LP + LK
+      input: Forward or neutral + LP + LK
 
     - name: Concealed Kill Invert
       input: Back + LP + LK

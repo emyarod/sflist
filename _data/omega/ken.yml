@@ -44,7 +44,7 @@
 
   normal_throw:
     - name: Shoulder Throw
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Hell Wheel
       input: back + lp + lk

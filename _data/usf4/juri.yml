@@ -37,7 +37,7 @@
 
   normal_throw:
     - name: Karen Kick
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Assatsu Kick
       input: back + lp + lk

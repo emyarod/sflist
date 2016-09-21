@@ -43,7 +43,7 @@
 
   normal_throw:
     - name: Shimonshu
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Kyoshitsugeki
       input: back + lp lk

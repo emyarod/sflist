@@ -33,7 +33,7 @@
 
   normal_throw:
     - name: Gado Thrust
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Saikyo Haraigoshi
       input: back + lp + lk

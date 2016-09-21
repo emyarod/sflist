@@ -44,7 +44,7 @@
 
   normal_throw:
     - name: Genocide Shot
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Death Throw
       input: back + lp + lk

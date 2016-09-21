@@ -35,13 +35,13 @@
 
   normal_throw:
     - name: Dragon Suplex
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Judo Throw
       input: back + lp + lk
 
     - name: Flying Mare
-      input: (in air) forward (or neutral position) + lp + lk
+      input: (in air) forward or neutral + lp + lk
 
     - name: Flying Buster Drop
       input: (in air) back + lp + lk

@@ -36,7 +36,7 @@
 
   normal_throw:
     - name: Gekitei Futai
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Ento Shugeki
       input: back + lp + lk

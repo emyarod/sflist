@@ -43,7 +43,7 @@
 
   normal_throw:
     - name: Bodyslam
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Brain Buster
       input: back + lp + lk

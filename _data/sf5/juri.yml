@@ -45,7 +45,7 @@
 
   normal_throw:
     - name: Chisenkyaku
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Kaeikyaku
       input: back + lp lk

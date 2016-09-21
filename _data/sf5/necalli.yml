@@ -49,7 +49,7 @@
 
   normal_throw:
     - name: Soul Sealer
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Soul Discriminator
       input: back + lp lk

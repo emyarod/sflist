@@ -45,7 +45,7 @@
 
   normal_throw:
     - name: Rainbow Suplex
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Crescent Line
       input: back + lp + lk

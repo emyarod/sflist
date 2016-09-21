@@ -54,7 +54,7 @@
 
   normal_throw:
     - name: Yoga Rocket
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Yoga Hoop
       input: back + lp lk

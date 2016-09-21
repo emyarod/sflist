@@ -3,19 +3,19 @@
   special_move:
     - name: Kikoken
       input: chback forward + punch
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Hyakuretsukyaku
       input: qcf + kick
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Airborne Hyakuretsukyaku
       input: (during up or upforward jump) qcf + kick
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Spinning Bird Kick
       input: chdown up + kick
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
   unique_attack:
     - name: Tsuitotsuken
@@ -38,7 +38,7 @@
 
     - name: Yosokyaku
       input: (in air) down + mk
-      note: ["Can be performed three times in sequence"]
+      note: ['Can be performed three times in sequence']
 
     - name: Wall Jump
       input: (during jump near wall) upforward
@@ -46,15 +46,15 @@
   vsystem:
     - name: Renkiko
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger']
 
     - name: Rankyaku
       input: mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Sohakkei
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Hoyokusen
@@ -62,7 +62,7 @@
 
   normal_throw:
     - name: Koshuto
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Tenshin Shushu
       input: back + lp lk

@@ -57,7 +57,7 @@
 
   normal_throw:
     - name: Deadly Throw
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Death Tower
       input: back + lp + lk

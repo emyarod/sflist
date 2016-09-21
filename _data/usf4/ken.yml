@@ -32,7 +32,7 @@
 
   normal_throw:
     - name: Shoulder Throw
-      input: Forward (or neutral position) + LP + LK
+      input: Forward or neutral + LP + LK
 
     - name: Hell Wheel
       input: Back + LP + LK

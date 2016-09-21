@@ -49,7 +49,7 @@
 
   normal_throw:
     - name: Hooligan Suplex
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Frankensteiner
       input: back + lp + lk

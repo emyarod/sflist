@@ -64,7 +64,7 @@
 
   normal_throw:
     - name: Daydream Headlock
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
       note: ["Gains V-Skill effect"]
 
     - name: Sell Down

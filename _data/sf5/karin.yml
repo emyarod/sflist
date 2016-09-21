@@ -72,7 +72,7 @@
 
   normal_throw:
     - name: Hajotsui
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Arakuma Inashi
       input: back + lp lk

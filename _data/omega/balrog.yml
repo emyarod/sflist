@@ -57,7 +57,7 @@
 
   normal_throw:
     - name: Head Bomber
-      input: Forward (or neutral position) + LP + LK
+      input: Forward or neutral + LP + LK
 
     - name: Lever Break
       input: Back + LP + LK

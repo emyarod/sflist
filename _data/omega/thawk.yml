@@ -44,7 +44,7 @@
 
   normal_throw:
     - name: Neck Hanging Tree
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Mexican Throw
       input: back + lp + lk

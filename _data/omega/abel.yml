@@ -41,7 +41,7 @@
 
   normal_throw:
     - name: Drop Throw
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Pincer Throw
       input: back + lp + lk

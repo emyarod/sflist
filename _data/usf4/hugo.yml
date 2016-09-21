@@ -41,7 +41,7 @@
 
   normal_throw:
     - name: Neck Hanging Tree
-      input: Forward (or neutral position) + LP + LK
+      input: Forward or neutral + LP + LK
 
     - name: Body Slam
       input: Back + LP + LK

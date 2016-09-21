@@ -31,7 +31,7 @@
 
   normal_throw:
     - name: Shushugai
-      input: Forward (or neutral position) + LP + LK
+      input: Forward or neutral + LP + LK
 
     - name: Tenshou Tousaikyaku
       input: Back + LP + LK

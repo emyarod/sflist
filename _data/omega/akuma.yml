@@ -72,7 +72,7 @@
 
   normal_throw:
     - name: Goshosha
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Syuretto
       input: back + lp + lk

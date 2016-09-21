@@ -78,7 +78,7 @@
 
   normal_throw:
     - name: Dragon Suplex
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Target Down
       input: back + lp lk

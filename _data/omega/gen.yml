@@ -28,7 +28,7 @@
       input: ... back
 
     - name: -- Close Kick
-      input: ... down (or neutral position)
+      input: ... down or neutral
       note: ["Armor Break"]
 
     - name: -- Far Kick
@@ -76,7 +76,7 @@
 
   normal_throw:
     - name: Shuraku
-      input: Forward (or neutral position) + LP + LK
+      input: Forward or neutral + LP + LK
 
     - name: Hozen
       input: Back + LP + LK

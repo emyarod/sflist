@@ -40,7 +40,7 @@
 
   normal_throw:
     - name: Head Bazooka
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Hand Machinegun
       input: back + lp + lk

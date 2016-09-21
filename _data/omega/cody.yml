@@ -36,7 +36,7 @@
 
   normal_throw:
     - name: Prisoner Throw
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Bad Stomp
       input: back + lp + lk

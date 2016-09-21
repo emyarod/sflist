@@ -43,7 +43,7 @@
 
   normal_throw:
     - name: Swing Over Launch
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Flip Throw
       input: back + lp + lk

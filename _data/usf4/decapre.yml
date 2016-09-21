@@ -46,7 +46,7 @@
 
   normal_throw:
     - name: Shadow Suplex
-      input: Forward (or neutral position) + LP + LK
+      input: Forward or neutral + LP + LK
 
     - name: Frankensteiner
       input: Back + LP + LK

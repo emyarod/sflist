@@ -56,7 +56,7 @@
 
   normal_throw:
     - name: Colonel Carrier
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Deadly Package
       input: back + lp + lk

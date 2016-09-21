@@ -49,7 +49,7 @@
 
   normal_throw:
     - name: Soul Fall
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Soul Loop
       input: back + lp + lk

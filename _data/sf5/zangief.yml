@@ -50,7 +50,7 @@
 
   normal_throw:
     - name: Atomic Drop
-      input: forward (or neutral position) + lp lk
+      input: forward or neutral + lp lk
 
     - name: Captured
       input: back + lp lk

@@ -44,7 +44,7 @@
 
   normal_throw:
     - name: Jaguar Carry
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Jaguar Slam
       input: back + lp + lk

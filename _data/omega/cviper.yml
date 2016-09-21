@@ -37,7 +37,7 @@
 
   normal_throw:
     - name: Ab Fitness
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Temple Massage
       input: back + lp + lk

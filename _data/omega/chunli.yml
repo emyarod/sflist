@@ -39,7 +39,7 @@
 
   normal_throw:
     - name: Koshuto
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Kirinshu
       input: back + lp + lk

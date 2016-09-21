@@ -42,7 +42,7 @@
 
   normal_throw:
     - name: Tiger Rage
-      input: forward (or neutral position) + lp + lk
+      input: forward or neutral + lp + lk
 
     - name: Tiger Carry
       input: back + lp + lk
