@@ -71,6 +71,7 @@ a:hover {
 /* -------------------- Header */
 .title {
     font-family:    $secondary-font;
+    font-weight:    bold;
     text-transform: uppercase;
     letter-spacing: .05rem;
     margin:         .75rem .5rem 0 .5rem;
@@ -79,7 +80,9 @@ a:hover {
 .home {
     font-family:    $secondary-font;
     text-transform: uppercase;
-    font-size:      .75rem;
+    // font-size:      .75rem;
+    font-size:      .5rem;
+    font-weight:    bold;
     letter-spacing: .05rem;
     margin:         .5rem;
     text-align:     right;
@@ -147,7 +150,9 @@ a {
 .chara_title {
   font-family:    $secondary-font;
   text-transform: uppercase;
-  font-size:      2rem;
+  // font-size:      2rem;
+  font-size:      1.5rem;
+  font-weight:    bold;
   letter-spacing: .05rem;
   margin:         0 .5rem;
   padding:        .5rem 0 0 0;
@@ -157,10 +162,13 @@ a {
 .from_game {
   font-family:    $secondary-font;
   text-transform: uppercase;
-  font-size:      .75rem;
+  // font-size:      .75rem;
+  font-size:      .5rem;
+  font-weight:    bold;
   letter-spacing: .05rem;
   // margin:         .1rem .5rem 1rem .5rem;
-  margin:         .5rem;
+  // margin:         .5rem;
+  margin:         .1rem .5rem .5rem;
   text-align:     center;
 }
 
