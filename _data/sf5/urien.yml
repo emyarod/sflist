@@ -27,7 +27,7 @@
 
     - name: Choral Kick
       input: back + hk
-      note: ["Overhead if charged"]
+      note: ["Overhead if held"]
 
     - name: Terrible Smash
       input: forward + hp
