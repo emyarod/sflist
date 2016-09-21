@@ -9,14 +9,10 @@
   Replace Input
 */
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+@import 'https://fonts.googleapis.com/css?family=Oswald:400,700';
 
 /* -------------------- Vars */
-@font-face {
-  font-family: BebasNeue;
-  src: url('BebasNeue.otf') format('opentype');
-}
-
 $bg-color:              #212121;
 $primary-color:         #fff;
 $secondary-color:       #ff5252;
@@ -25,7 +21,7 @@ $move_name-color:       #fff;
 $move_input-color:      #212121;
 $move_note-color:       #fff;
 $primary-font:          'Montserrat', sans-serif;
-$secondary-font:        'BebasNeue', sans-serif;
+$secondary-font:        'Oswald', sans-serif;
 $separator-color:       rgba(0, 0, 0, .5);
 
 /* -------------------- Global */
@@ -75,12 +71,14 @@ a:hover {
 /* -------------------- Header */
 .title {
     font-family:    $secondary-font;
+    text-transform: uppercase;
     letter-spacing: .05rem;
     margin:         .75rem .5rem 0 .5rem;
 }
 
 .home {
     font-family:    $secondary-font;
+    text-transform: uppercase;
     font-size:      .75rem;
     letter-spacing: .05rem;
     margin:         .5rem;
@@ -103,8 +101,10 @@ a:hover {
   th,
   td {
     padding: 0 .25rem;
+    font-size: 0.6rem;
     font-weight: normal;
     font-family: $secondary-font;
+    text-transform: uppercase;
     letter-spacing: .1rem;
     text-align: center;
   }
@@ -113,6 +113,7 @@ a:hover {
 .item {
   color:          rgba($secondary-color, .25); /* for now, parentheses only */
   font-family:    $secondary-font;
+  text-transform: uppercase;
   letter-spacing: .05rem;
   margin:         0 .5rem;
 }
@@ -145,6 +146,7 @@ a {
 
 .chara_title {
   font-family:    $secondary-font;
+  text-transform: uppercase;
   font-size:      2rem;
   letter-spacing: .05rem;
   margin:         0 .5rem;
@@ -154,9 +156,11 @@ a {
 
 .from_game {
   font-family:    $secondary-font;
+  text-transform: uppercase;
   font-size:      .75rem;
   letter-spacing: .05rem;
-  margin:         .1rem .5rem 1rem .5rem;
+  // margin:         .1rem .5rem 1rem .5rem;
+  margin:         .5rem;
   text-align:     center;
 }
 
@@ -169,6 +173,7 @@ a {
   background-color: $primary-color;
   color:            $bg-color;
   font-family:      $secondary-font;
+  text-transform: uppercase;
   font-size:        .6rem;
   letter-spacing:   .1rem;
   margin:           .5rem .5rem 0 .5rem;
