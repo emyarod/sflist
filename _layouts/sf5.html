@@ -7,6 +7,16 @@ layout: page
 
   <div class="chara_title">{{ chara.character }}</div>
   <div class="from_game"><a href="../">Street Fighter V</a></div>
+  <table class="stats">
+    <tr>
+      <th>Vitality</th>
+      <th>Stun</th>
+    </tr>
+    <tr>
+      <td>{{ chara.vitality }}</td>
+      <td>{{ chara.stun }}</td>
+    </tr>
+  </table>
 
   <div class="move_cat"><span>Special Move</span></div>
   {% for special in chara.special_move %}
