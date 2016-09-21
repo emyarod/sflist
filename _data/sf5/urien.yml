@@ -1,4 +1,6 @@
 - character: Urien
+  vitality: 1000
+  stun: 1000
 
   special_move:
     - name: Chariot Tackle

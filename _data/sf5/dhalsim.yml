@@ -1,4 +1,6 @@
 - character: Dhalsim
+  vitality: 900
+  stun: 950
 
   special_move:
     - name: Yoga Fire

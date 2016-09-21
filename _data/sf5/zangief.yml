@@ -1,4 +1,6 @@
 - character: Zangief
+  vitality: 1050
+  stun: 1050
 
   special_move:
     - name: Screw Pile Driver

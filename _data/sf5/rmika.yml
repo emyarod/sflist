@@ -1,4 +1,6 @@
 - character: R. Mika
+  vitality: 950
+  stun: 1000
 
   special_move:
     - name: Shooting Peach

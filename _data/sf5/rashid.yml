@@ -1,4 +1,6 @@
 - character: Rashid
+  vitality: 950
+  stun: 1000
 
   special_move:
     - name: Spinning Mixer

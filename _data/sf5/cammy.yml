@@ -1,4 +1,6 @@
 - character: Cammy
+  vitality: 900
+  stun: 900
 
   special_move:
     - name: Spiral Arrow

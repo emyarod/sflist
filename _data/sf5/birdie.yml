@@ -1,4 +1,6 @@
 - character: Birdie
+  vitality: 1050
+  stun: 1000
 
   special_move:
     - name: Bull Head

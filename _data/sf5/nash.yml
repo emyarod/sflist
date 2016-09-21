@@ -1,4 +1,6 @@
 - character: Nash
+  vitality: 950
+  stun: 950
 
   special_move:
     - name: Sonic Boom
