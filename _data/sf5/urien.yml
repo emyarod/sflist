@@ -29,10 +29,10 @@
 
     - name: Choral Kick
       input: back + hk
-      note: ["Overhead if held"]
 
     - name: Terrible Smash
       input: forward + hp
+      note: ["Overhead if held"]
 
     - name: Killer Straight
       input: lp > mp
