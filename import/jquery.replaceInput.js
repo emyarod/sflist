@@ -52,6 +52,7 @@ var viewInput = {
   "mk"            : "<span class='button'>MK</span>",
   "hk"            : "<span class='button'>HK</span>",
 
+  "neutral"       : "<img class='rotate8' src='/sflist/img/neutral.png' />",
   "up"            : "<img class='rotate8' src='/sflist/img/arrow_a.png' />",
   "upforward"     : "<img class='rotate9' src='/sflist/img/arrow_a.png' />",
   "forward"       : "<img class='rotate6' src='/sflist/img/arrow_a.png' />",
