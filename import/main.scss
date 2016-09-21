@@ -1,11 +1,20 @@
 ---
 ---
+/*
+  Vars
+  Global
+  Header
+  Content
+  Footer
+  Replace Input
+*/
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+/* -------------------- Vars */
 @font-face {
-    font-family: BebasNeue;
-    src: url('BebasNeue.otf') format('opentype');
+  font-family: BebasNeue;
+  src: url('BebasNeue.otf') format('opentype');
 }
 
 $bg-color:              #212121;
@@ -20,45 +29,47 @@ $secondary-font:        'BebasNeue', sans-serif;
 $separator-color:       rgba(0, 0, 0, .5);
 
 /* -------------------- Global */
-*, *:before, *:after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-html, body {
-    background-color: $bg-color;
-    color:            $primary-color;
-    font-family:      $primary-font;
-    font-size:        48px;
-    line-height:      100%;
-    margin:           0;
-    min-width:        320px;
-    overflow-x:       hidden;
+html,
+body {
+  background-color: $bg-color;
+  color:            $primary-color;
+  font-family:      $primary-font;
+  font-size:        48px;
+  line-height:      100%;
+  margin:           0;
+  min-width:        320px;
+  overflow-x:       hidden;
 }
 
-@media
-    (max-width: 640px) {
-        html, body {
-            font-size: 7.5vw;
-        }
+@media (max-width: 640px) {
+  html,
+  body {
+    font-size: 7.5vw;
+  }
 }
 
-@media
-    (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: landscape) {
-        html, body {
-            font-size: 5vw;
-        }
+@media (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  html,
+  body {
+    font-size: 5vw;
+  }
 }
 
 a,
 a:visited {
-    color:           $secondary-color;
-    text-decoration: none;
+  color:           $secondary-color;
+  text-decoration: none;
 }
 
 a:hover {
-    color:           $primary-color;
-    text-decoration: none;
+  color:           $primary-color;
+  text-decoration: none;
 }
 
 /* -------------------- Header */
@@ -78,155 +89,176 @@ a:hover {
 
 /* -------------------- Content */
 .main-content {
-    margin-bottom: .5rem;
+  margin-bottom: .5rem;
+}
+
+.stats {
+  margin: .5rem auto;
+
+  th {
+    background-color: $primary-color;
+    color: $move_input-color;
+  }
+
+  th,
+  td {
+    padding: 0 .25rem;
+    font-weight: normal;
+    font-family: $secondary-font;
+    letter-spacing: .1rem;
+    text-align: center;
+  }
 }
 
 .item {
-    color:          rgba($secondary-color, .25); /* for now, parentheses only */
-    font-family:    $secondary-font;
-    letter-spacing: .05rem;
-    margin:         0 .5rem;
+  color:          rgba($secondary-color, .25); /* for now, parentheses only */
+  font-family:    $secondary-font;
+  letter-spacing: .05rem;
+  margin:         0 .5rem;
 }
 
-a.item,
-a:visited.item {
+a {
+  &.item,
+  &:visited.item {
     color: $secondary-color;
-}
+  }
 
-a:hover.item {
+  &:hover.item {
     color: $primary-color;
-}
+  }
 
-a.item-wip,
-a:visited.item-wip {
+  &.item-wip,
+  &:visited.item-wip {
     color: rgba($secondary-color, .25);
-}
+  }
 
-a:hover.item-wip {
+  &:hover.item-wip {
     color: rgba($primary-color, .25);
+  }
 }
 
 .item-aka {
-    font-size:      .75rem;
-    letter-spacing: 0.025rem;
-    margin:         0 .25rem;
+  font-size:      .75rem;
+  letter-spacing: .025rem;
+  margin:         0 .25rem;
 }
 
 .chara_title {
-    font-family:    $secondary-font;
-    font-size:      2rem;
-    letter-spacing: .05rem;
-    margin:         0 .5rem;
-    padding:        .5rem 0 0 0;
-    text-align:     center;
+  font-family:    $secondary-font;
+  font-size:      2rem;
+  letter-spacing: .05rem;
+  margin:         0 .5rem;
+  padding:        .5rem 0 0 0;
+  text-align:     center;
 }
 
 .from_game {
-    font-family:    $secondary-font;
-    font-size:      .75rem;
-    letter-spacing: .05rem;
-    margin:         .1rem .5rem 1rem .5rem;
-    text-align:     center;
+  font-family:    $secondary-font;
+  font-size:      .75rem;
+  letter-spacing: .05rem;
+  margin:         .1rem .5rem 1rem .5rem;
+  text-align:     center;
 }
 
-.move_cat, .move {
-    margin: 0 .5rem;
+.move_cat,
+.move {
+  margin: 0 .5rem;
 }
 
 .move_cat {
-    background-color: $primary-color;
-    color:            $bg-color;
-    font-family:      $secondary-font;
-    font-size:        .6rem;
-    letter-spacing:   .1rem;
-    margin:           .5rem .5rem 0 .5rem;
-    padding:          0 .25rem;
+  background-color: $primary-color;
+  color:            $bg-color;
+  font-family:      $secondary-font;
+  font-size:        .6rem;
+  letter-spacing:   .1rem;
+  margin:           .5rem .5rem 0 .5rem;
+  padding:          0 .25rem;
 }
 
 p.move {
-    line-height:   50%;
-    margin-bottom: 0;
+  line-height:   50%;
+  margin-bottom: 0;
 }
 
 .move {
-    background-color: $move-background-color;
-    border-top:       1px dotted $separator-color;
-    padding:          .1rem .2rem;
+  background-color: $move-background-color;
+  border-top:       1px dotted $separator-color;
+  padding:          .1rem .2rem;
 }
 
 .move_cat + .move {
-    border-top: none;
+  border-top: none;
 }
 
 .move_name {
-    color:       $move_name-color;
-    font-size:   .5rem;
-    font-weight: 700;
+  color:       $move_name-color;
+  font-size:   .5rem;
+  font-weight: 700;
 }
 
 .move_input {
-    color:        $move_input-color;
-    font-size:    .4rem;
-    font-weight:  700;
-    word-spacing: .025rem;
+  color:        $move_input-color;
+  font-size:    .4rem;
+  font-weight:  700;
+  word-spacing: .025rem;
 }
 
 .move_note {
-    color:      $move_note-color;
-    display:    block;
-    font-size:  .35rem;
-    font-style: italic;
-    margin-top: .075rem;
+  display:    block;
+  margin-top: .075rem;
+  color:      $move_note-color;
+  font-size:  .35rem;
+  font-style: italic;
 }
 
 .move_comment {
-    background-color: rgba($primary-color, .25);
-    color:            rgba($primary-color, .5);
-    font-size:        .4rem;
-    margin:           0 .5rem 0 .5rem;
-    padding:          .1rem;
-    text-align:       center;
+  margin:           0 .5rem 0 .5rem;
+  padding:          .1rem;
+  color:            rgba($primary-color, .5);
+  font-size:        .4rem;
+  text-align:       center;
+  background-color: rgba($primary-color, .25);
 }
 
 /* -------------------- Footer */
 .main-footer {
-    font-size: .4rem;
+  font-size: .4rem;
 }
 
 .footer-bottom {
-    margin:     1rem .5rem .25rem .5rem;
-    text-align: right;
+  margin:     1rem .5rem .25rem .5rem;
+  text-align: right;
 }
 
 .footer-fixed {
-    bottom:   0;
-    margin:   0 .5rem .25rem .5rem;
-    position: fixed;
-    right:    0;
+  position: fixed;
+  right:    0;
+  bottom:   0;
+  margin:   0 .5rem .25rem .5rem;
 }
 
 /* -------------------- Replace Input */
 .move_input img {
-    margin:         .075rem;
-    outline:        1px solid transparent;
-    vertical-align: middle;
-    width:          .75rem;
+  margin:         .075rem;
+  outline:        1px solid transparent;
+  vertical-align: middle;
+  width:          .75rem;
 }
 
 .button {
-    background:            #212121; /* important */
-    -webkit-border-radius: 50%;
-    -moz-border-radius:    50%;
-    border-radius:         50%;
-    box-shadow:            0 .1rem 0 rgba(0, 0, 0, .25);
-    color:                 #fff; /* important */
-    display:               inline-block;
-    font-size:             .3rem;
-    line-height:           .75rem;
-    margin:                .075rem;
-    text-align:            center;
-    vertical-align:        middle;
-    width:                 .75rem;
+  display:               inline-block;
+  width:                 .75rem;
+  margin:                .075rem;
+  border-radius:         50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius:    50%;
+  color:                 #fff; /* important */
+  font-size:             .3rem;
+  line-height:           .75rem;
+  text-align:            center;
+  vertical-align:        middle;
+  background:            #212121; /* important */
+  box-shadow:            0 .1rem 0 rgba(0, 0, 0, .25);
 }
 
 .flow {
