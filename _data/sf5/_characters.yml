@@ -1,4 +1,5 @@
 - { name: Alex }
+- { name: Akuma, status: empty }
 - { name: Balrog, aka: Boxer }
 - { name: Birdie }
 - { name: Cammy }
@@ -17,7 +18,6 @@
 - { name: R. Mika }
 - { name: Rashid }
 - { name: Ryu }
-# - { name: Urien, status: empty }
 - { name: Urien }
 - { name: Vega, aka: Claw }
 - { name: Zangief }
