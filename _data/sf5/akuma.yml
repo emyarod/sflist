@@ -1,1 +1,111 @@
 - character: Akuma
+  vitality: 875
+  stun: 900
+
+  special_move:
+    - name: Gohadoken
+      input: qcf + punch
+      note: ['EX', 'Changes during V-Trigger']
+
+    - name: Sekia Goshoha
+      input: hcb + punch
+      note: ['EX']
+
+    - name: Zanku Hadoken
+      input: (during upforward jump) or (during Hyakkishu) qcf + punch
+      note: ['EX version only during Hyakkishu']
+
+    - name: Goshoryuken
+      input: dpf + punch
+      note: ['EX', 'Changes during V-Trigger']
+
+    - name: Tatsumaki Zankukyaku
+      input: qcb + kick
+      note: ['EX']
+
+    - name: Airborne Tatsumaki Zankukyaku
+      input: (during upforward jump) or (during Hyakkishu) qcb + kick
+      note: ['EX version only during Hyakkishu']
+
+    - name: Hyakkishu
+      input: hcf + kick
+      note: ['EX']
+
+    - name: -- Hyakki Gouzan
+      input: ... (neutral position)
+
+    - name: -- Hyakki Gosho
+      input: ... punch
+    #   note: ['Armor Break']
+
+    - name: -- Hyakki Goujin
+      input: ... kick
+
+    - name: -- Hyakki Gosai
+      input: ... lp lk
+      note: ['Command grab']
+
+    - name: -- Hyakki Gozanku
+      input: ... qcf + punch
+      note: ['During EX Hyakkishu']
+
+    - name: -- Hyakki Gourasen
+      input: ... qcb + kick
+      note: ['During EX Hyakkishu']
+
+    - name: Ashura Senku
+      input: dpf or dpb and kkk
+
+  unique_attack:
+    - name: Zugaihasatsu
+      input: forward + mp
+      note: ['Overhead']
+
+    - name: Tenha
+      input: back + hp
+
+    - name: Sekiseiken
+      input: forward + hp
+
+    - name: Tenmakujinkyaku
+      input: (during upforward jump) down + mk
+
+    - name: Kikokurenzan
+      input: hk > hk
+    
+    - name: kongoken
+      input: hp > hp
+
+  vsystem:
+    - name: Dohatsu Shoten
+      input: hp hk
+      note: ['V-Trigger']
+
+    - name: Rakan
+      input: mp mk or down + mp mk
+      note: ['V-Skill']
+
+    - name: Rakan Gosho
+      input: (during Rakan) punch
+
+    - name: Rakan Gokyaku
+      input: (during Rakan) kick
+
+    - name: Gosenkyaku
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Sekia Kuretsuha
+      input: qcf qcf + punch
+
+    - name: Shun Goku Satsu
+      input: (during V-trigger) lp lp forward lk hp
+      note: ['Command grab']
+
+  normal_throw:
+    - name: Goshoha
+      input: forward or neutral + lp lk
+
+    - name: Shuretsuzan
+      input: back + lp lk
