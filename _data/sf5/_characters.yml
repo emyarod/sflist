@@ -1,5 +1,6 @@
+# - { name: Akuma, status: empty }
+- { name: Akuma }
 - { name: Alex }
-- { name: Akuma, status: empty }
 - { name: Balrog, aka: Boxer }
 - { name: Birdie }
 - { name: Cammy }
