@@ -5,7 +5,7 @@
   special_move:
     - name: Kanzuki-Ryu Hokojutsu Seppo
       input: qcf + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: -- Tenko
       input: ... > punch
@@ -15,11 +15,11 @@
 
     - name: Mujinkyaku
       input: qcb + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Ressenha
       input: qcb + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: -- Senha Kusabi
       input: ... > down + kick
@@ -55,18 +55,21 @@
     - name: Tsumujigari
       input: forward + mk
 
+    - name: Ku-Renge
+      input: (during jump) mp > hp
+
   vsystem:
     - name: Kanzuki-Ryu Guren No Kata
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger']
 
     - name: Myo-Oken
       input: mp mk
-      note: ["V-Skill", "Hold buttons to change properties"]
+      note: ['V-Skill', 'Hold buttons to change properties']
 
     - name: Yashagaeshi
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Kanzuki-Ryu Hadorokushiki Hasha No Kata

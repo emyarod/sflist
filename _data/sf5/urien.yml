@@ -5,34 +5,34 @@
   special_move:
     - name: Chariot Tackle
       input: chback forward + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Violence Knee Drop
       input: chdown up + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Dangerous Headbutt
       input: chdown up + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Metallic Sphere
       input: qcf + punch
-      note: ["EX", "Hold buttons to change properties"]
+      note: ['EX', 'Hold buttons to change properties']
 
     - name: Aegis Reflector
       input: neutral or back or down + hp hk
-      note: ["During V-Trigger"]
+      note: ['During V-Trigger']
 
   unique_attack:
     - name: Choral Punch
       input: forward + mp
 
     - name: Choral Kick
-      input: back + hk
+      input: downforward + hk
 
     - name: Terrible Smash
       input: forward + hp
-      note: ["Overhead if held"]
+      note: ['Overhead if held']
 
     - name: Killer Straight
       input: lp > mp
@@ -43,15 +43,15 @@
   vsystem:
     - name: Aegis Reflector
       input: neutral or back or down + hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger']
 
     - name: Metallic Aura
       input: mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Anger Snap Fist
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Dominant Crush

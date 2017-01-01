@@ -8,19 +8,19 @@
 
     - name: Kazekiri
       input: dpf + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Raida
       input: hcb + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Kunai
       input: qcf + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Airborne Kunai
       input: (during upforward jump) qcf + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Kunai Ikkinage
       input: punch (hold and release)
@@ -30,7 +30,7 @@
 
     - name: Kunai Hoju
       input: hcb + kick
-      note: ["Hold to replenish more kunai"]
+      note: ['EX', 'Hold to replenish more kunai']
 
     - name: Rokushaku Horokudama (Akebono)
       input: (during V-Trigger) hp + hk
@@ -81,23 +81,23 @@
   vsystem:
     - name: Rokushaku Horokudama (Akebono)
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger']
 
     - name: Rokushaku Horokudama (Hizakari)
       input: back + hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger']
 
     - name: Rokushaku Horokudama (Tasogare)
       input: forward + hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger']
 
     - name: Tenrai
       input: mp mk (Hold buttons to change properties)
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Hanagasumi
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Kachofugetsu

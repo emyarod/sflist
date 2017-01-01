@@ -5,15 +5,15 @@
   special_move:
     - name: Fuharenkyaku
       input: qcf + kick (Input again after kick to release)
-      note: ["EX"]
+      note: ['EX']
 
     - name: Tensenrin
-      input: dpf + kick
-      note: ["EX"]
+      input: dpf + punch
+      note: ['EX']
 
     - name: Ryodansatsu
       input: qcb + kick
-      note: ["EX"]
+      note: ['EX']
 
   unique_attack:
     - name: Senkaikyaku
@@ -31,15 +31,15 @@
   vsystem:
     - name: Feng Shui Engine Type Alpha
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger']
 
     - name: Kasatushu
       input: mp mk (Hold buttons to change properties) (Input again while dashing to feint)
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Kaisenrenkyaku
       input: (during guard) forward + kkk
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Sakkai Fuhazan

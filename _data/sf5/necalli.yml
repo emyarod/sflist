@@ -5,19 +5,19 @@
   special_move:
     - name: The Disc's Guidance
       input: chback forward + punch
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Raging Light
       input: dpf + punch
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Mask of Tlalli
-      input: hcb + punch
-      note: ["EX", "Changes during V-Trigger", "Command grab"]
+      input: hcb + kick
+      note: ['EX', 'Changes during V-Trigger', 'Command grab']
 
     - name: Valiant Rebellion
       input: qcf + kick
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
   unique_attack:
     - name: Opening Dagger
@@ -32,15 +32,15 @@
   vsystem:
     - name: Torrent of Power
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger']
 
     - name: Culminated Power
       input: Neutral position or back or forward + mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: The Calling
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Ceremony of Honor

@@ -16,7 +16,7 @@
       note: ['EX', 'KKB supported']
 
     - name: Screw Smash
-      input: chdown up + kick
+      input: dpf + kick
       note: ['EX']
 
     - name: Bursting Buffalo
