@@ -1,0 +1,87 @@
+- character: Kolin
+  vitality: 875
+  stun: 900
+
+  special_move:
+    - name: Frost Touch (low)
+      input: qcb + lp
+      note: ['EX']
+
+    - name: Frost Touch (middle)
+      input: qcb + mp
+      note: ['EX']
+
+    - name: Frost Touch (high)
+      input: qcb + hp
+      note: ['EX']
+
+    - name: Parabellum
+      input: qcf + punch or punch (repeat button)
+      note: ['EX']
+
+    - name: Vanity Step
+      input: qcb + kick
+      note: ['EX']
+    
+    - name: Silver Edge
+      input: qcb + lk > punch
+      note: ['EX']
+
+    - name: Hailstorm
+      input: dpf + punch
+      note: ['EX']
+
+  unique_attack:
+    - name: Blizzard Heel
+      input: forward + mk
+
+    - name: Icicle Stamp
+      input: (during neutral or upforward jump) down + mk
+
+    - name: Sniping Kick
+      input: back + hk
+
+    - name: Frost Spike
+      input: lp > mp > hp
+
+    - name: White Out
+      input: mk > hp > mp > mk
+    
+    - name: Cold Low
+      input: qcb + mk > down + lk > down + hk
+
+    - name: Brinicle
+      input: qcb + mk > down + lk > down + hp
+
+    - name: Snow Grain
+      input: qcb + mk > down + mp > hp
+
+    - name: White Spear
+      input: qcb + hk > lk > mk
+
+  vsystem:
+    - name: Diamond Dust
+      input: hp hk
+      note: ['V-Trigger']
+
+    - name: Inside Slash
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Third Eye
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Frost Tower
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Pressure Ridge
+      input: forward or neutral + lp lk
+
+    - name: Sublimation
+      input: back + lp lk
+
+    - name: Avalanche Lock
+      input: (in air) lp lk
