@@ -1,0 +1,53 @@
+- character: Menat
+  vitality: 950
+  stun: 950
+
+  special_move:
+    - name: Soul Sphere
+      input: qcf + punch
+      note: ['EX', 'With the crystal ball']
+
+    - name: '-- Soul Sphere: Ankh'
+      input: ... > qcf + punch
+
+    - name: Guardian Of The Sun
+      input: dpf + punch
+      note: ['EX', 'With the crystal ball']
+
+  unique_attack:
+    - name: Judgement Of Anubis
+      input: downforward + mk
+
+    - name: Divine Retribution
+      input: forward + mk
+    
+    - name: Khamun Kick
+      input: (during upforward jump) down + kick
+
+  vsystem:
+    - name: Wisdom Of Thoth
+      input: hp hk
+      note: ['V-Trigger', '2 stocks']
+
+    - name: 'Soul Reflect: Kamal'
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: 'Soul Reflect: Stella'
+      input: down + mp mk
+      note: ['V-Skill']
+
+    - name: Left Eye Of The Lion
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: The Nefertem
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Overflowing Nile
+      input: forward or neutral + lp lk
+
+    - name: Pyramid Hopscotch
+      input: back + lp lk
