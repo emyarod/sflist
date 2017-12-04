@@ -1,0 +1,68 @@
+- character: Zeku
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: Bushin Gram - Koku
+      input: qcf + kick
+      note: ['EX']
+
+    - name: Bushin Gram - Ban
+      input: dpf + kick
+      note: ['EX']
+
+    - name: Bushin Gram - Teki
+      input: qcb + kick
+      note: ['EX']
+
+    - name: Bushin Jakura
+      input: qcf + punch
+      note: ['EX']
+
+    - name: -- Bushin Gekirinchu
+      input: ... > punch
+
+    - name: -- Bushin Kirinkyaku
+      input: ... > kick
+
+    - name: -- Bushin Tengen
+      input: ... > lp lk
+
+    - name: Shukumyo
+      input: down down + punch punch
+    
+    - name: Idaten
+      input: hp hk
+      note: ['During V-Trigger']
+
+    - name: Bushin Bakujasho
+      input: hp hk
+      note: ['During Idaten, or during an Idaten attack']
+
+  unique_attack:
+    - name: Nouten Wari
+      input: forward + hp
+
+  vsystem:
+    - name: Bushinryu Shingekiko
+      input: hp hk
+      note: ['V-Trigger', '2 stocks']
+
+    - name: Fukuro
+      input: mp mk
+      note: ['V-Skill', 'Change properties with the directional buttons on hit']
+
+    - name: Toushi
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Batsuzan Gaisei
+      input: qcf qcf + kick
+
+  normal_throw:
+    - name: Tsurigane Otoshi
+      input: forward or neutral + lp lk
+
+    - name: Mikoshi
+      input: back + lp lk
