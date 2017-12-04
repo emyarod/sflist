@@ -43,7 +43,7 @@
   vsystem:
     - name: Crazy Rush
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '3 stocks']
 
     - name: KKB
       input: mp mk or (during a KKB supported move) mp mk

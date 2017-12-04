@@ -27,12 +27,12 @@
       input: (during upforward jump) down + hk
 
     - name: Sacrificial Altar
-      input: mk > hk > mp + mk or back + mp + mk
+      input: mk > hk > mp mk or back + mp mk
 
   vsystem:
     - name: Torrent of Power
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '3 stocks']
 
     - name: Culminated Power
       input: Neutral position or back or forward + mp mk

@@ -5,19 +5,19 @@
   special_move:
     - name: Shooting Peach
       input: qcf + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Wingless Airplane
       input: qcf + kick
-      note: ["EX", "Gains V-Skill effect"]
+      note: ['EX', 'Gains V-Skill effect']
 
     - name: Rainbow Typhoon
       input: hcb + punch
-      note: ["EX", "Gains V-Skill effect", "Command grab"]
+      note: ['EX', 'Gains V-Skill effect', 'Command grab']
 
     - name: Brimstone
       input: hcb + kick
-      note: ["EX", "Gains V-Skill effect", "Command grab"]
+      note: ['EX', 'Gains V-Skill effect', 'Command grab']
 
   unique_attack:
     - name: Stomp Chop
@@ -30,7 +30,7 @@
       input: forward + hp
 
     - name: Passion Press
-      input: forward or back + mp
+      input: back or forward + mp
 
     - name: -- Passion Rope Throw (Forward)
       input: ... > forward + mp
@@ -38,37 +38,44 @@
     - name: -- Passion Rope Throw (Backward)
       input: ... > back + mp
 
+    - name: Shooting Start Combo
+      input: (during jump) mp > hp
+
   vsystem:
     - name: Nadeshiko (Above)
       input: hp hk
-      note: ["V-Trigger", "Hold to delay"]
+      note: ['V-Trigger', 'Hold to delay', '2 stocks']
 
     - name: Nadeshiko (Front)
       input: back + hp hk
-      note: ["V-Trigger", "Hold to delay"]
+      note: ['V-Trigger', 'Hold to delay', '2 stocks']
 
     - name: Nadeshiko (Behind)
       input: forward + hp hk
-      note: ["V-Trigger", "Hold to delay"]
+      note: ['V-Trigger', 'Hold to delay', '2 stocks']
 
-    - name: Heated Mic Performance
+    - name: Mic Performance
       input: mp mk
-      note: ["V-Skill", "Hold buttons to change properties"]
+      note: ['V-Skill', 'Hold buttons to change properties']
 
     - name: Peach Gator
       input: (during guard) forward + kkk
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Peach Assault
       input: qcb qcb + punch
-      note: ["Grab CA", "Gains V-Skill effect"]
+      note: ['Grab CA', 'Gains V-Skill effect']
 
   normal_throw:
     - name: Daydream Headlock
       input: forward or neutral + lp lk
-      note: ["Gains V-Skill effect"]
+      note: ['Gains V-Skill effect']
+
+    - name: Dream Driver
+      input: (while opponent is crouching) forward or neutral + lp lk
+      note: ['Gains V-Skill effect']
 
     - name: Sell Down
       input: back + lp lk
-      note: ["Gains V-Skill effect"]
+      note: ['Gains V-Skill effect']

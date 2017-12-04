@@ -5,22 +5,25 @@
   special_move:
     - name: Screw Pile Driver
       input: 360 + punch
-      note: ["EX", "Command grab"]
+      note: ['EX', 'Command grab']
 
     - name: Double Lariat
       input: ppp
 
     - name: Siberian Express
       input: hcb + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Borscht Dynamite
       input: (during up or upforward jump) 360 + punch
-      note: ["EX", "Command grab"]
+      note: ['EX', 'Command grab']
 
     - name: Cyclone Lariat
       input: (during V-Trigger) hp hk
-      note: ["Hold buttons to attack"]
+      note: ['Hold buttons to attack']
+    
+    - name: Tundra Storm
+      input: dpf + punch
 
   unique_attack:
     - name: Head Butt
@@ -31,24 +34,27 @@
 
     - name: Flying Body Press
       input: (during upforward jump) down + hp
+    
+    - name: Flying Head Butt
+      input: (during upforward jump) up + hp
 
   vsystem:
     - name: Cyclone Lariat
       input: hp hk
-      note: ["V-Trigger", "Hold buttons to attack"]
+      note: ['V-Trigger', 'Hold buttons to attack', '3 stocks']
 
     - name: Iron Muscle
       input: mp mk ( + forward )
-      note: ["V-Skill", "Hold to delay"]
+      note: ['V-Skill', 'Hold to delay']
 
     - name: Muscle Explosion
       input: (during guard) forward + kkk
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Bolshoi Russian Suplex
       input: 360 360 + punch
-      note: ["Grab CA"]
+      note: ['Grab CA']
 
   normal_throw:
     - name: Atomic Drop
@@ -56,3 +62,6 @@
 
     - name: Captured
       input: back + lp lk
+    
+    - name: Horosho Chokeslam
+      input: (while opponent is crouching) forward or neutral + lp lk

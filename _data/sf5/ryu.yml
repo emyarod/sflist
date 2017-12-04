@@ -5,31 +5,31 @@
   special_move:
     - name: Hadoken
       input: qcf + punch
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Shoryuken
       input: dpf + punch
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Tatsumaki Senpukyaku
       input: qcb + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Airborne Tatsumaki Senpukyaku
       input: (during upforward jump) qcb + kick
-      note: ["EX"]
+      note: ['EX']
 
   unique_attack:
     - name: Collarbone Breaker
       input: forward + mp
-      note: ["Overhead"]
+      note: ['Overhead']
 
     - name: Solar Plexus Strike
       input: forward + hp
 
     - name: Axe Kick
       input: back + hk
-      note: ["Forces opponent to stand on hit"]
+      note: ['Forces opponent to stand on hit']
 
     - name: Jodan Nirengeki
       input: hp > hk
@@ -40,15 +40,15 @@
   vsystem:
     - name: Denjin Renki
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger', '2 stocks']
 
     - name: Mind's Eye
       input: mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Hashogeki
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Shinku Hadoken

@@ -1,23 +1,23 @@
 - character: Dhalsim
-  vitality: 900
+  vitality: 925
   stun: 950
 
   special_move:
     - name: Yoga Fire
       input: qcf + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Yoga Flame
       input: hcb + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Yoga Gale
       input: (during up or upforward jump) hcb + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Yoga Teleport
       input: dpf or dpb + ppp or kkk
-      note: ["Can be performed in air"]
+      note: ['Can be performed in air']
 
   unique_attack:
     - name: Drill Kick
@@ -32,27 +32,30 @@
     - name: Divine Kick
       input: back + mk
 
+    - name: Thrust Kick
+      input: downback + mk
+
   vsystem:
     - name: Yoga Burner
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger', '2 stocks']
 
     - name: Yoga Float
       input: forward or neutral + mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Yoga Float (Airborne)
       input: (during jump) mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Yoga Mala
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Yoga Sunburst
       input: qcf qcf + punch
-      note: ["Hold buttons to change properties", "Can be performed in air"]
+      note: ['Hold buttons to change properties', 'Can be performed in air']
 
   normal_throw:
     - name: Yoga Rocket

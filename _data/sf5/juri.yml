@@ -31,7 +31,7 @@
   vsystem:
     - name: Feng Shui Engine Type Alpha
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '3 stocks']
 
     - name: Kasatushu
       input: mp mk (Hold buttons to change properties) (Input again while dashing to feint)

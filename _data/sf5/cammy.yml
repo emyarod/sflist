@@ -48,7 +48,7 @@
   vsystem:
     - name: Delta Drive
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '2 stocks']
 
     - name: Axel Spin Knuckle
       input: mp mk
@@ -68,3 +68,6 @@
 
     - name: Delta Through
       input: back + lp lk
+    
+    - name: Neck Spiral
+      input: (in air) lp lk

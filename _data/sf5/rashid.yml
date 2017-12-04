@@ -5,27 +5,27 @@
   special_move:
     - name: Spinning Mixer
       input: qcf + punch
-      note: ["EX", "Changes during V-Trigger", "Properties change with repeated button presses"]
+      note: ['EX', 'Changes during V-Trigger', 'Properties change with repeated button presses']
 
     - name: Dash Spinning Mixer
       input: (during forward dash) forward + punch
-      note: ["Changes during V-Trigger", "Properties change with repeated button presses"]
+      note: ['Changes during V-Trigger', 'Properties change with repeated button presses']
 
     - name: Eagle Spike
       input: qcb + kick
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Dash Eagle Spike
       input: (during forward dash) forward + kick
-      note: ["Changes during V-Trigger"]
+      note: ['Changes during V-Trigger']
 
     - name: Airborne Eagle Spike
       input: (during upforward jump) qcb + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Whirlwind Shot
       input: qcf + kick
-      note: ["EX"]
+      note: ['EX']
 
   unique_attack:
     - name: Flap Spin
@@ -40,27 +40,27 @@
   vsystem:
     - name: Ysaar
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger', '2 stocks']
 
     - name: Front Flip
       input: mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Airborne Eagle Spike
       input: mp mk > kick
-      note: ["V-Skill", "EX"]
+      note: ['V-Skill', 'EX']
 
     - name: Rolling Assault
       input: down + mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Nail Assault
       input: down + mp mk > kick
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Sliding Roll
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Altair

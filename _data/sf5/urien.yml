@@ -43,7 +43,7 @@
   vsystem:
     - name: Aegis Reflector
       input: neutral or back or down + hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '3 stocks']
 
     - name: Metallic Aura
       input: mp mk

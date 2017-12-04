@@ -5,23 +5,23 @@
   special_move:
     - name: Bolt Charge
       input: qcf + punch
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Split River
-      input: qcf + mp or qcf + pp > punch
-      note: ["Changes during V-Trigger"]
+      input: qcf + mp > punch
+      note: ['Changes during V-Trigger']
 
     - name: Rodeo Break
-      input: qcf + mp or qcf + pp > kick
-      note: ["Changes during V-Trigger"]
+      input: qcf + mp > kick
+      note: ['Changes during V-Trigger']
 
     - name: Thunder Clap
-      input: qcb + punch (Hold to power up)
-      note: ["EX", "Changes during V-Trigger"]
+      input: qcb + punch (Hold to delay)
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Sunset Wheel
       input: hcb + kick
-      note: ["EX", "Changes during V-Trigger", "Command grab"]
+      note: ['EX', 'Changes during V-Trigger', 'Command grab']
 
   unique_attack:
     - name: Step Elbow
@@ -36,32 +36,32 @@
   vsystem:
     - name: Spark Show
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger', '2 stocks']
 
     - name: Volty Line
       input: mp mk
-      note: ["V-Skill", "Changes during V-Trigger"]
+      note: ['V-Skill', 'Changes during V-Trigger']
 
     - name: Linear Movement - Avante
       input: forward + mp mk
-      note: ["V-Skill", "Changes during V-Trigger", "Hold buttons to attack"]
+      note: ['V-Skill', 'Changes during V-Trigger', 'Hold buttons to attack']
 
     - name: Linear Movement - Esquiva
       input: back + mp mk
-      note: ["V-Skill", "Changes during V-Trigger", "Hold buttons to attack"]
+      note: ['V-Skill', 'Changes during V-Trigger', 'Hold buttons to attack']
 
     - name: Linear Movement - Finta
       input: back + mp mk > mp mk
-      note: ["V-Skill", "Changes during V-Trigger", "Hold buttons to attack"]
+      note: ['V-Skill', 'Changes during V-Trigger', 'Hold buttons to attack']
 
     - name: Double Slap
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Inazuma Spin Hold
       input: qcf qcf + kick
-      note: ["Changes during V-Trigger"]
+      note: ['Changes during V-Trigger']
 
   normal_throw:
     - name: Seoi Throw

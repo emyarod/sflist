@@ -5,19 +5,19 @@
   special_move:
     - name: Sonic Boom
       input: qcf + punch
-      note: ["EX", "Press punch during EX Sonic Boom to throw a second Sonic Boom"]
+      note: ['EX', 'Press punch during EX Sonic Boom to throw a second Sonic Boom']
 
     - name: Sonic Scythe
       input: qcb + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Moonsault Slash
       input: qcf + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Tragedy Assault
       input: dpf + punch
-      note: ["EX"]
+      note: ['EX']
 
   unique_attack:
     - name: Knee Bazooka
@@ -53,26 +53,29 @@
     - name: Raptor Combination
       input: mk > hk > mk
 
+    - name: Bullet Combination
+      input: mk > hk > mp mk
+
   vsystem:
-    - name: "Sonic Move - Hide"
+    - name: 'Sonic Move - Hide'
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger', '2 stocks']
 
-    - name: "Sonic Move - Blitz Air"
+    - name: 'Sonic Move - Blitz Air'
       input: back + hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger', '2 stocks']
 
-    - name: "Sonic Move - Steel Air"
+    - name: 'Sonic Move - Steel Air'
       input: forward + hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger', '2 stocks']
 
     - name: Bullet Clear
       input: mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
-    - name: "Sonic Move - Avoid"
+    - name: 'Sonic Move - Avoid'
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Judgement Saber

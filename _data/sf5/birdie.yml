@@ -1,5 +1,5 @@
 - character: Birdie
-  vitality: 1050
+  vitality: 1025
   stun: 1000
 
   special_move:
@@ -39,7 +39,7 @@
   vsystem:
     - name: Enjoy Time
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '3 stocks']
 
     - name: Break Time
       input: mp mk

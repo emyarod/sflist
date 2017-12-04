@@ -1,5 +1,5 @@
 - character: Alex
-  vitality: 1000
+  vitality: 1025
   stun: 1050
 
   special_move:
@@ -48,7 +48,7 @@
   vsystem:
     - name: Rage Shift
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '2 stocks']
 
     - name: Overhaul
       input: mp mk

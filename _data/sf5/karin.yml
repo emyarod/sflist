@@ -61,9 +61,9 @@
   vsystem:
     - name: Kanzuki-Ryu Guren No Kata
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '2 stocks']
 
-    - name: Myo-Oken
+    - name: Meioken
       input: mp mk
       note: ['V-Skill', 'Hold buttons to change properties']
 

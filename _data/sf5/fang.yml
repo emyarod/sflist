@@ -5,19 +5,19 @@
   special_move:
     - name: Nishikyu
       input: chdown up + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Sotoja
       input: chback forward + punch
-      note: ["EX"]
+      note: ['EX']
 
     - name: Ryobenda
       input: chback forward + kick
-      note: ["EX"]
+      note: ['EX']
 
     - name: Nikankyaku
       input: dpf + kick
-      note: ["EX"]
+      note: ['EX']
 
   unique_attack:
     - name: Senpukuga
@@ -29,15 +29,15 @@
   vsystem:
     - name: Dokunomu
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger', '2 stocks']
 
     - name: Nishodoku
       input: mp mk
-      note: ["V-Skill"]
+      note: ['V-Skill']
 
     - name: Nikaiho
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Shishiruirui

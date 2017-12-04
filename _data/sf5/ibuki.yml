@@ -1,5 +1,5 @@
 - character: Ibuki
-  vitality: 900
+  vitality: 950
   stun: 950
 
   special_move:
@@ -81,15 +81,15 @@
   vsystem:
     - name: Rokushaku Horokudama (Akebono)
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '3 stocks']
 
     - name: Rokushaku Horokudama (Hizakari)
       input: back + hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '3 stocks']
 
     - name: Rokushaku Horokudama (Tasogare)
       input: forward + hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '3 stocks']
 
     - name: Tenrai
       input: mp mk (Hold buttons to change properties)

@@ -31,6 +31,9 @@
       input: dpf + punch
       note: ['EX']
 
+    - name: Diamond Dust
+      input: (During V-Trigger) hp hk
+
   unique_attack:
     - name: Blizzard Heel
       input: forward + mk
@@ -62,7 +65,7 @@
   vsystem:
     - name: Diamond Dust
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '2 stocks']
 
     - name: Inside Slash
       input: mp mk

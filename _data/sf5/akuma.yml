@@ -1,5 +1,5 @@
 - character: Akuma
-  vitality: 875
+  vitality: 900
   stun: 900
 
   special_move:
@@ -54,7 +54,7 @@
       note: ['During EX Hyakkishu']
 
     - name: Ashura Senku
-      input: dpf or dpb and kkk
+      input: dpf or dpb + kkk
 
   unique_attack:
     - name: Zugaihasatsu
@@ -79,7 +79,7 @@
   vsystem:
     - name: Dohatsu Shoten
       input: hp hk
-      note: ['V-Trigger']
+      note: ['V-Trigger', '3 stocks']
 
     - name: Rakan
       input: mp mk or down + mp mk

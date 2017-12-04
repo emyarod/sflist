@@ -1,31 +1,31 @@
 - character: M. Bison (Dictator)
   vitality: 1000
-  stun: 950
+  stun: 1000
 
   special_move:
     - name: Psycho Blast
       input: chback forward + punch
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Double Knee Press
       input: chback forward + kick
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Head Press
       input: chdown up + kick
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: -- Somersault Skull Driver
       input: ... > (after Head Press hits) punch
-      note: ["Changes during V-Trigger"]
+      note: ['Changes during V-Trigger']
 
     - name: -- Devil Reverse
       input: ... > (before Head Press hits) punch
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
     - name: Psycho Inferno
       input: qcb + punch
-      note: ["EX", "Changes during V-Trigger"]
+      note: ['EX', 'Changes during V-Trigger']
 
   unique_attack:
     - name: Hell Attack
@@ -40,20 +40,20 @@
   vsystem:
     - name: Psycho Power
       input: hp hk
-      note: ["V-Trigger"]
+      note: ['V-Trigger', '3 stocks']
 
     - name: Psycho Reflect
       input: mp mk
-      note: ["V-Skill", "Hold buttons to change properties"]
+      note: ['V-Skill', 'Hold buttons to change properties']
 
     - name: Psycho Burst
       input: (during guard) forward + ppp
-      note: ["V-Reversal"]
+      note: ['V-Reversal']
 
   critical_art:
     - name: Ultimate Psycho Crusher
       input: qcf qcf + punch
-      note: ["Can be performed in air"]
+      note: ['Can be performed in air']
 
   normal_throw:
     - name: Psycho Impact
