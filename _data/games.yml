@@ -1,14 +1,17 @@
-- title: "Street Fighter V"
+- title: 'Street Fighter V: Arcade Edition'
+  short: sf5ae
+
+- title: 'Street Fighter V'
   short: sf5
 
-- title: "Ultra Street Fighter IV"
+- title: 'Ultra Street Fighter IV'
   short: usf4
 
-- title: "USF4 Omega Edition"
+- title: 'USF4 Omega Edition'
   short: omega
 
-- title: "Street Fighter III: 3rd Strike"
+- title: 'Street Fighter III: 3rd Strike'
   short: 3rdstrike
 
-- title: "Super Street Fighter II Turbo"
+- title: 'Super Street Fighter II Turbo'
   short: ssf2t
