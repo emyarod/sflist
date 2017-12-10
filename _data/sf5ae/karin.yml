@@ -1,0 +1,90 @@
+- character: Karin
+  vitality: 900
+  stun: 950
+
+  special_move:
+    - name: Kanzuki-Ryu Hokojutsu Seppo
+      input: qcf + kick
+      note: ['EX']
+
+    - name: -- Tenko
+      input: ... > punch
+
+    - name: -- Orochi
+      input: ... > down + punch
+
+    - name: Mujinkyaku
+      input: qcb + kick
+      note: ['EX']
+
+    - name: Ressenha
+      input: qcb + punch
+      note: ['EX']
+
+    - name: -- Senha Kusabi
+      input: ... > down + kick
+
+    - name: -- Senha Resshu
+      input: ... > up + kick
+
+    - name: Guren Ken
+      input: (during V-Trigger I) qcf + punch
+
+    - name: Guren Hosho
+      input: (during V-Trigger I) qcf + punch > punch
+
+    - name: Guren Senha
+      input: (during V-Trigger I) qcf + punch > up + punch
+
+    - name: Guren Chochu
+      input: (during V-Trigger I) qcf + punch > down + punch
+
+    - name: Guren Hochu
+      input: (during V-Trigger I) qcf + punch > down + punch > down + punch
+
+    - name: Guren Resshu
+      input: (during V-Trigger I) qcf + punch > ( down + punch ) > up + kick
+
+    - name: Guren Kusabi
+      input: (during V-Trigger I) qcf + punch > ( down + punch ) > down + kick
+
+    - name: Guren Kyoho
+      input: (during V-Trigger I) qcf + punch > kick
+
+    - name: Yasha Gaeshi Tenchi
+      input: (during V-Trigger II) hp hk
+
+  unique_attack:
+    - name: Tsumujigari
+      input: forward + mk
+
+    - name: Ku-Renge
+      input: (during jump) mp > hp
+
+  vsystem:
+    - name: Kanzuki-Ryu Guren No Kata
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Tenha No Kata
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Meioken
+      input: mp mk
+      note: ['V-Skill', 'Hold buttons to change properties']
+
+    - name: Yashagaeshi
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Kanzuki-Ryu Hadorokushiki Hasha No Kata
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Hajotsui
+      input: forward or neutral + lp lk
+
+    - name: Arakuma Inashi
+      input: back + lp lk

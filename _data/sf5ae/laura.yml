@@ -1,0 +1,81 @@
+- character: Laura
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: Bolt Charge
+      input: qcf + punch
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Split River
+      input: qcf + mp > punch
+      note: ['Changes during V-Trigger I']
+
+    - name: Rodeo Break
+      input: qcf + mp > kick
+      note: ['Changes during V-Trigger I']
+
+    - name: Thunder Clap
+      input: qcb + punch (Hold to delay)
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Sunset Wheel
+      input: hcb + kick
+      note: ['EX', 'Changes during V-Trigger I', 'Command grab']
+
+    - name: Matsuda Sway
+      input: (During V-Trigger II) hp hk
+
+    - name: Shock Choke
+      input: (During V-Trigger II) hp hk > (mp mk) > (close to opponent) hp hk
+
+  unique_attack:
+    - name: Step Elbow
+      input: forward + hp
+
+    - name: Twist Barrage
+      input: forward + hp > hp
+
+    - name: Dual Crash
+      input: mp > mk
+
+  vsystem:
+    - name: Spark Show
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Shock Stance
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Volty Line
+      input: mp mk
+      note: ['V-Skill', 'Changes during V-Trigger I']
+
+    - name: Linear Movement - Avante
+      input: forward + mp mk
+      note: ['V-Skill', 'Changes during V-Trigger I', 'Hold buttons to attack']
+
+    - name: Linear Movement - Esquiva
+      input: back + mp mk
+      note: ['V-Skill', 'Changes during V-Trigger I', 'Hold buttons to attack']
+
+    - name: Linear Movement - Finta
+      input: back + mp mk > mp mk
+      note: ['V-Skill', 'Changes during V-Trigger I', 'Hold buttons to attack']
+
+    - name: Double Slap
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Inazuma Spin Hold
+      input: qcf qcf + kick
+      note: ['Changes during V-Trigger I']
+
+  normal_throw:
+    - name: Seoi Throw
+      input: forward or neutral + lp lk
+
+    - name: Pullback Hold
+      input: back + lp lk

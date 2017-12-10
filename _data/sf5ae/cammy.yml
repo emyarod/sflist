@@ -1,0 +1,93 @@
+- character: Cammy
+  vitality: 900
+  stun: 900
+
+  special_move:
+    - name: Spiral Arrow
+      input: qcf + kick
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Cannon Spike
+      input: dpf + kick
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Cannon Strike
+      input: (during upforward jump) qcb + kick
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Hooligan Combination
+      input: hcf + punch
+      note: ['EX']
+
+    - name: -- Lazer Edge Slicer
+      input: ... > (no additional input)
+      note: ['EX']
+
+    - name: -- Fatal Leg Twister
+      input: ... > (close to ground) lp lk
+      note: ['Command grab']
+
+    - name: -- Cross Scissors Pressure
+      input: ... > (close to opponent in air) lp lk
+      note: ['Command grab']
+
+    - name: -- Cannon Strike
+      input: ... > kick
+      note: ['Changes during V-Trigger I']
+
+    - name: Delta Ambush
+      input: (During V-Trigger II) hp hk
+
+    - name: Delta Twist
+      input: (During V-Trigger II) hp hk > (close to opponent) punch
+
+    - name: Reverse Edge
+      input: (During V-Trigger II) hp hk > kick
+
+    - name: Delta Step
+      input: (During V-Trigger II) forward + hp hk
+
+  unique_attack:
+    - name: Knee Bullet
+      input: forward + hk
+
+    - name: Lift Upper
+      input: back + mp
+
+    - name: Lift Combination
+      input: back + mp > hk
+
+  vsystem:
+    - name: Delta Drive
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Delta Ambush
+      input: hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Delta Step
+      input: forward + hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Axel Spin Knuckle
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Strike Back
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Cross Stinger Assault
+      input: qcf qcf + kick
+
+  normal_throw:
+    - name: Gyro Clipper
+      input: forward or neutral + lp lk
+
+    - name: Delta Through
+      input: back + lp lk
+    
+    - name: Neck Spiral
+      input: (in air) lp lk

@@ -1,0 +1,55 @@
+- character: F.A.N.G
+  vitality: 950
+  stun: 950
+
+  special_move:
+    - name: Nishikyu
+      input: chdown up + punch
+      note: ['EX', 'Properties change during V-Trigger II']
+
+    - name: Sotoja
+      input: chback forward + punch
+      note: ['EX']
+
+    - name: Ryobenda
+      input: chback forward + kick
+      note: ['EX', 'Properties change during V-Trigger II']
+
+    - name: Nikankyaku
+      input: dpf + kick
+      note: ['EX']
+
+  unique_attack:
+    - name: Senpukuga
+      input: down + ppp > kick
+
+    - name: Nirenko
+      input: downforward + hp
+
+  vsystem:
+    - name: Dokunomu
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Koryo Dokuda
+      input: hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Nishodoku
+      input: mp mk
+      note: ['V-Skill', 'Properties change during V-Trigger I']
+
+    - name: Nikaiho
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Shishiruirui
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Shimonshu
+      input: forward or neutral + lp lk
+
+    - name: Kyoshitsugeki
+      input: back + lp lk

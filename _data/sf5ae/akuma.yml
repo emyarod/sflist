@@ -1,0 +1,115 @@
+- character: Akuma
+  vitality: 900
+  stun: 900
+
+  special_move:
+    - name: Gohadoken
+      input: qcf + punch
+      note: ['EX', 'Changes during V-Trigger I', 'Changes during V-Trigger II']
+
+    - name: Sekia Goshoha
+      input: hcb + punch
+      note: ['EX', 'Changes during V-Trigger II']
+
+    - name: Zanku Hadoken
+      input: (during upforward jump) or (during Hyakkishu) qcf + punch
+      note: ['EX version only during Hyakkishu', 'Changes during V-Trigger I']
+
+    - name: Goshoryuken
+      input: dpf + punch
+      note: ['EX', 'Changes during V-Trigger I', 'Changes during V-Trigger II']
+
+    - name: Tatsumaki Zankukyaku
+      input: qcb + kick
+      note: ['EX', 'Changes during V-Trigger II']
+
+    - name: Airborne Tatsumaki Zankukyaku
+      input: (during upforward jump) or (during Hyakkishu) qcb + kick
+      note: ['EX version only during Hyakkishu', 'Changes during V-Trigger II']
+
+    - name: Hyakkishu
+      input: hcf + kick
+      note: ['EX']
+
+    - name: -- Hyakki Gouzan
+      input: ... (neutral position)
+
+    - name: -- Hyakki Gosho
+      input: ... punch
+    #   note: ['Armor Break']
+
+    - name: -- Hyakki Goujin
+      input: ... kick
+
+    - name: -- Hyakki Gosai
+      input: ... lp lk
+      note: ['Command grab']
+
+    - name: -- Hyakki Gozanku
+      input: ... qcf + punch
+      note: ['During EX Hyakkishu']
+
+    - name: -- Hyakki Gourasen
+      input: ... qcb + kick
+      note: ['During EX Hyakkishu', 'Changes during V-Trigger II']
+
+    - name: Ashura Senku
+      input: dpf or dpb + kkk
+
+  unique_attack:
+    - name: Zugaihasatsu
+      input: forward + mp
+      note: ['Overhead']
+
+    - name: Tenha
+      input: back + hp
+
+    - name: Sekiseiken
+      input: forward + hp
+
+    - name: Tenmakujinkyaku
+      input: (during upforward jump) down + mk
+
+    - name: Kikokurenzan
+      input: hk > hk
+    
+    - name: Kongoken
+      input: hp > hp
+
+  vsystem:
+    - name: Dohatsu Shoten
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Shiretsu Hasshi
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Rakan
+      input: mp mk or down + mp mk
+      note: ['V-Skill']
+
+    - name: Rakan Gosho
+      input: (during Rakan) punch
+
+    - name: Rakan Gokyaku
+      input: (during Rakan) kick
+
+    - name: Gosenkyaku
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Sekia Kuretsuha
+      input: qcf qcf + punch
+
+    - name: Shun Goku Satsu
+      input: (during V-Trigger I) lp lp forward lk hp
+      note: ['Command grab']
+
+  normal_throw:
+    - name: Goshoha
+      input: forward or neutral + lp lk
+
+    - name: Shuretsuzan
+      input: back + lp lk

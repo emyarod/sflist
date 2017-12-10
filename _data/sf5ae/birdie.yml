@@ -1,0 +1,79 @@
+- character: Birdie
+  vitality: 1025
+  stun: 1000
+
+  special_move:
+    - name: Bull Head
+      input: qcf + punch
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Bull Horn
+      input: Hold punch or kick and release
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Hanging Chain
+      input: qcf + kick (Hold to delay)
+      note: ['EX', 'Press Punch to cancel during chain whirl', 'Properties change during V-Trigger II']
+
+    - name: Killing Head
+      input: hcb + punch
+      note: ['EX', 'Command grab']
+
+    - name: Bull Revenger
+      input: hcb + kick
+      note: ['EX', 'Properties change during V-Trigger II']
+
+    - name: Bull Swing
+      input: (During V-Trigger II) hp hk
+
+    - name: Bull Capture
+      input: (During V-Trigger II) down + hp hk
+
+  unique_attack:
+    - name: Bull Drop
+      input: forward + hk
+
+    - name: Bull Charge
+      input: forward + hp
+
+    - name: Bull Slider
+      input: downforward + hp
+
+    - name: Bad Hammer
+      input: down + hp > hp
+
+  vsystem:
+    - name: Enjoy Time
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Birdie Time
+      input: hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Break Time
+      input: mp mk
+      note: ['V-Skill', 'Properties change during V-Trigger I']
+
+    - name: Banana Time
+      input: back + mp mk
+      note: ['V-Skill']
+
+    - name: Drink Time
+      input: down + mp mk
+      note: ['V-Skill']
+
+    - name: Pepper Pot
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Skip To My Chain
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Bad Skull
+      input: forward or neutral + lp lk
+
+    - name: Bad Chain
+      input: back + lp lk

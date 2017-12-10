@@ -1,0 +1,70 @@
+- character: Urien
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: Chariot Tackle
+      input: chback forward + kick
+      note: ['EX']
+
+    - name: Violence Knee Drop
+      input: chdown up + kick
+      note: ['EX']
+
+    - name: Dangerous Headbutt
+      input: chdown up + punch
+      note: ['EX']
+
+    - name: Metallic Sphere
+      input: qcf + punch
+      note: ['EX', 'Hold buttons to change properties']
+
+    - name: Aegis Reflector
+      input: neutral or back or down + hp hk
+      note: ['During V-Trigger I']
+
+    - name: Tyrant Blaze
+      input: hp hk
+      note: ['During V-Trigger II', 'Hold buttons to change properties', 'Properties change after V-Skill']
+
+  unique_attack:
+    - name: Quarrel Punch
+      input: forward + mp
+
+    - name: Quarrel Kick
+      input: downforward + hk
+
+    - name: Terrible Smash
+      input: forward + hp
+      note: ['Overhead if held']
+
+    - name: Killer Straight
+      input: lp > mp
+
+    - name: Break Rush
+      input: forward + mp > forward + hp
+
+  vsystem:
+    - name: Aegis Reflector
+      input: neutral or back or down + hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Tyrant Pressure
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Metallic Aura
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Anger Snap Fist
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Dominant Crush
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Spartan Bomb
+      input: forward or back or neutral + lp lk

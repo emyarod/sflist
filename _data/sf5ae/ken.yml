@@ -1,0 +1,69 @@
+- character: Ken
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: Hadoken
+      input: qcf + punch
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Shoryuken
+      input: dpf + punch
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Tatsumaki Senpukyaku
+      input: qcb + kick
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (during upforward jump) qcb + kick
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Shinryuken
+      input: (During V-Trigger II) hp hk
+      note: ['Properties change with repeated button presses']
+
+  unique_attack:
+    - name: Thunder Kick
+      input: forward + hk
+      note: ['Hold button for attack, tap for feint']
+
+    - name: Inazuma Kick
+      input: back + mk
+
+    - name: Chin Buster
+      input: back + mp
+
+    - name: Chin Buster 2nd
+      input: back + mp > hp
+
+    - name: Lion Breaker
+      input: mk > hk
+
+  vsystem:
+    - name: Heat Rush
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Shinryuken
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Quick Step
+      input: mp mk (Hold buttons to attack)
+      note: ['V-Skill']
+
+    - name: Senpu Nataotoshi
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Guren Enjinkyaku
+      input: qcf qcf + kick
+
+  normal_throw:
+    - name: Knee Bash
+      input: forward or neutral + lp lk
+
+    - name: Hell Wheel
+      input: back + lp lk

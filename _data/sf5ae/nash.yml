@@ -1,0 +1,108 @@
+- character: Nash
+  vitality: 950
+  stun: 950
+
+  special_move:
+    - name: Sonic Boom
+      input: qcf + punch
+      note: ['EX', 'Press punch during EX Sonic Boom to throw a second Sonic Boom']
+
+    - name: Sonic Scythe
+      input: qcb + kick
+      note: ['EX']
+
+    - name: Moonsault Slash
+      input: qcf + kick
+      note: ['EX']
+
+    - name: Tragedy Assault
+      input: dpf + punch
+      note: ['EX']
+
+    - name: Stealth Dash
+      input: (During V-Trigger II) hp hk
+
+    - name: Stealth Dash (stop)
+      input: (During V-Trigger II) hp hk > back
+
+    - name: Justice Corridor
+      input: (During V-Trigger II) hp hk > punch
+
+    - name: Justice Shell
+      input: (During V-Trigger II) hp hk > kick
+
+  unique_attack:
+    - name: Knee Bazooka
+      input: forward + lk
+
+    - name: Jumping Sobat
+      input: forward + mk
+
+    - name: Chopping Assault
+      input: forward + mp
+
+    - name: Step Kick
+      input: forward + hk
+
+    - name: Spinning Back Knuckle
+      input: forward + hp
+
+    - name: Side Knee Attack
+      input: back + mk
+
+    - name: Rapid Punch
+      input: lp > mp
+
+    - name: Rapid Kick
+      input: lk > mk
+
+    - name: Wind Shear
+      input: mp > lk > hp
+
+    - name: Down Burst
+      input: down + mp > forward + mp
+
+    - name: Raptor Combination
+      input: mk > hk > mk
+
+    - name: Bullet Combination
+      input: mk > hk > mp mk
+
+  vsystem:
+    - name: 'Sonic Move - Hide'
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: 'Sonic Move - Blitz Air'
+      input: back + hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: 'Sonic Move - Steel Air'
+      input: forward + hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Stealth Dash
+      input: hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Bullet Clear
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: 'Sonic Move - Avoid'
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Judgement Saber
+      input: qcb qcb + punch
+
+  normal_throw:
+    - name: Dragon Suplex
+      input: forward or neutral + lp lk
+
+    - name: Target Down
+      input: back + lp lk
+
+    - name: Air Jack
+      input: (in air) lp lk

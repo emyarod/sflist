@@ -1,0 +1,68 @@
+- character: Ed
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: Psycho Flicker
+      input: punch (repeat button)
+
+    - name: Psycho Knuckle
+      input: hp (hold button)
+
+    - name: Psycho Spark
+      input: forward + mp
+
+    - name: -- Psycho Shoot
+      input: ... > punch
+      note: ['EX']
+
+    - name: Psycho Upper
+      input: punch punch (together)
+      note: ['EX']
+
+    - name: Psycho Rising
+      input: kick kick (together)
+
+    - name: Psycho Splash
+      input: (after Psycho Rising hits) punch
+      note: ['EX']
+
+    - name: Ultra Snatcher - Ground
+      input: hp hk
+      note: ['During V-Trigger II']
+
+    - name: Ultra Snatcher - Air
+      input: down + hp hk
+      note: ['During V-Trigger II']
+
+  vsystem:
+    - name: Psycho Cannon
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Enhanced Snatcher
+      input: hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Psycho Snatcher - Ground
+      input: mp mk
+      note: ['V-Skill', 'Hold buttons to change properties']
+
+    - name: Psycho Snatcher - Air
+      input: down + mp mk
+      note: ['V-Skill', 'Hold buttons to change properties']
+
+    - name: Kill Step
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Psycho Barrage
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Psycho Blow
+      input: forward or neutral + lp lk
+
+    - name: Cheat & Smash
+      input: back + lp lk

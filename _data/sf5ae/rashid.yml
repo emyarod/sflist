@@ -1,0 +1,81 @@
+- character: Rashid
+  vitality: 950
+  stun: 1000
+
+  special_move:
+    - name: Spinning Mixer
+      input: qcf + punch
+      note: ['EX', 'Changes during V-Trigger I', 'Properties change with repeated button presses']
+
+    - name: Dash Spinning Mixer
+      input: (during forward dash) forward + punch
+      note: ['Changes during V-Trigger I', 'Properties change with repeated button presses']
+
+    - name: Eagle Spike
+      input: qcb + kick
+      note: ['EX', 'Changes during V-Trigger I', 'Changes during V-Trigger II']
+
+    - name: Dash Eagle Spike
+      input: (during forward dash) forward + kick
+      note: ['Changes during V-Trigger I', 'Changes during V-Trigger II']
+
+    - name: Airborne Eagle Spike
+      input: (during upforward jump) qcb + kick
+      note: ['EX', 'Changes during V-Trigger II']
+
+    - name: Whirlwind Shot
+      input: qcf + kick
+      note: ['EX', 'Changes during V-Trigger II']
+
+    - name: Haboob
+      input: (During V-Trigger II) hp hk
+
+  unique_attack:
+    - name: Flap Spin
+      input: forward + mp
+
+    - name: Beak Assault
+      input: forward + hp
+
+    - name: Wall Jump
+      input: (during jump near wall) upforward or downforward
+
+  vsystem:
+    - name: Ysaar
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Easifa
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Front Flip
+      input: mp mk
+      note: ['V-Skill', 'Properties change during V-Trigger II']
+
+    - name: Airborne Eagle Spike
+      input: mp mk > kick
+      note: ['V-Skill', 'EX', 'Properties change during V-Trigger II']
+
+    - name: Rolling Assault
+      input: down + mp mk
+      note: ['V-Skill']
+
+    - name: Nail Assault
+      input: down + mp mk > kick
+      note: ['V-Skill']
+
+    - name: Sliding Roll
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Altair
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Riding Glider
+      input: forward or neutral + lp lk
+
+    - name: Rising Sun
+      input: back + lp lk

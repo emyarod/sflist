@@ -1,0 +1,68 @@
+- character: Necalli
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: The Disc's Guidance
+      input: chback forward + punch
+      note: ['EX', 'Changes during V-Trigger I', 'Changes during V-Trigger II']
+
+    - name: Raging Light
+      input: dpf + punch
+      note: ['EX', 'Changes during V-Trigger I', 'Changes during V-Trigger II']
+
+    - name: Mask of Tlalli
+      input: hcb + kick
+      note: ['EX', 'Changes during V-Trigger I', 'Changes during V-Trigger II', 'Command grab']
+
+    - name: Valiant Rebellion
+      input: qcf + kick
+      note: ['EX', 'Changes during V-Trigger I', 'Changes during V-Trigger II']
+
+    - name: Clouded Mirror
+      input: (During V-Trigger II) hp hk (hold buttons to change properties)
+
+    - name: Heart Of Gold
+      input: (During V-Trigger II) hp hk
+
+  unique_attack:
+    - name: Opening Dagger
+      input: downforward + hp
+
+    - name: Road of the Sun
+      input: (during upforward jump) down + hk
+
+    - name: Sacrificial Altar
+      input: mk > hk > mp mk or back + mp mk
+      note: ['Properties change during V-Trigger I', 'Properties change during V-Trigger II']
+
+  vsystem:
+    - name: Torrent of Power
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Eruption of Power
+      input: hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Culminated Power
+      input: Neutral position or back or forward + mp mk
+      note: ['V-Skill', 'Properties change during V-Trigger I', 'Properties change during V-Trigger II']
+
+    - name: The Calling
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Ceremony of Honor
+      input: qcf qcf + punch
+
+    - name: Soul Offering
+      input: (during V-trigger I) qcf qcf + punch
+
+  normal_throw:
+    - name: Soul Sealer
+      input: forward or neutral + lp lk
+
+    - name: Soul Discriminator
+      input: back + lp lk

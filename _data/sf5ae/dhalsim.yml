@@ -1,0 +1,73 @@
+- character: Dhalsim
+  vitality: 925
+  stun: 950
+
+  special_move:
+    - name: Yoga Fire
+      input: qcf + punch
+      note: ['EX']
+
+    - name: Yoga Flame
+      input: hcb + punch
+      note: ['EX']
+
+    - name: Yoga Gale
+      input: (during up or upforward jump) hcb + punch
+      note: ['EX']
+
+    - name: Yoga Teleport
+      input: dpf or dpb + ppp or kkk
+      note: ['Can be performed in air']
+
+    - name: Yoga Sansara
+      input: (During V-Trigger II) hp hk
+      note: ['Can be done in air']
+
+  unique_attack:
+    - name: Drill Kick
+      input: (during jump) down + kick
+
+    - name: Yoga Anvil
+      input: back + hp
+
+    - name: Yoga Upper
+      input: back + mp
+
+    - name: Divine Kick
+      input: back + mk
+
+    - name: Thrust Kick
+      input: downback + mk
+
+  vsystem:
+    - name: Yoga Burner
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Yoga Sansara
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks', 'Can be done in air']
+
+    - name: Yoga Float
+      input: forward or neutral + mp mk
+      note: ['V-Skill']
+
+    - name: Yoga Float (Airborne)
+      input: (during jump) mp mk
+      note: ['V-Skill']
+
+    - name: Yoga Mala
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Yoga Sunburst
+      input: qcf qcf + punch
+      note: ['Hold buttons to change properties', 'Can be performed in air']
+
+  normal_throw:
+    - name: Yoga Rocket
+      input: forward or neutral + lp lk
+
+    - name: Yoga Hoop
+      input: back + lp lk

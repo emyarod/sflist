@@ -1,0 +1,122 @@
+- character: Ibuki
+  vitality: 950
+  stun: 950
+
+  special_move:
+    - name: Kasumigake
+      input: qcf + kick
+
+    - name: Kazekiri
+      input: dpf + kick
+      note: ['EX']
+
+    - name: Raida
+      input: hcb + punch
+      note: ['EX']
+
+    - name: Kunai
+      input: qcf + punch
+      note: ['EX']
+
+    - name: Airborne Kunai
+      input: (during upforward jump) qcf + punch
+      note: ['EX']
+
+    - name: Kunai Ikkinage
+      input: punch (hold and release)
+
+    - name: Airborne Kunai Ikkinage
+      input: (during jump) kick (hold and release)
+
+    - name: Kunai Hoju
+      input: hcb + kick
+      note: ['EX', 'Hold to replenish more kunai']
+
+    - name: Rokushaku Horokudama (Akebono)
+      input: (during V-Trigger I) hp + hk
+    
+    - name: Rokushaku Horokudama (Hizakari)
+      input: (during V-Trigger I) back + hp hk
+
+    - name: Rokushaku Horokudama (Tasogare)
+      input: (during V-Trigger I) forward + hp hk
+
+  unique_attack:
+    - name: Agemen
+      input: back + mp
+
+    - name: Kobekudaki
+      input: forward + mk
+
+    - name: Sazan
+      input: downforward + mk
+
+    - name: Bonshogeri
+      input: forward + hk
+
+    - name: Nobusuma
+      input: (during up or upforward jump) kick kick
+
+    - name: Shinten
+      input: lp > mp > hp
+
+    - name: Yagurakuzushi
+      input: lp > mp > lk
+
+    - name: Gogasha
+      input: mk > down + hk > hk
+
+    - name: Shakunage
+      input: down + mp > forward + hk
+
+    - name: Sasanaki
+      input: mp > forward + mk
+
+    - name: Tobikura
+      input: (during jump) lp > mk
+    
+    - name: Aoji
+      input: (during jump) hp > hk
+
+  vsystem:
+    - name: Rokushaku Horokudama (Akebono)
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Rokushaku Horokudama (Hizakari)
+      input: back + hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Rokushaku Horokudama (Tasogare)
+      input: forward + hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Fuma Shuriken (Haku)
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Fuma Shuriken (Kokufu)
+      input: back + hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Tenrai
+      input: mp mk (Hold buttons to change properties)
+      note: ['V-Skill']
+
+    - name: Hanagasumi
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Kachofugetsu
+      input: qcf qcf + kick
+
+  normal_throw:
+    - name: Yamikazura
+      input: forward or neutral + lp lk
+
+    - name: Kubiori
+      input: back + lp lk
+
+    - name: Tobizaru
+      input: (in air) lp lk

@@ -1,0 +1,93 @@
+- character: Abigail
+  vitality: 1100
+  stun: 1050
+
+  special_move:
+    - name: Abigail Punch
+      input: qcf + punch
+      note: ['EX', 'Properties change with repeated button presses']
+
+    - name: Giant Flip
+      input: hcb + punch
+      note: ['EX', 'Properties change with repeated button presses']
+
+    - name: Abigail Smash
+      input: hcb + kick
+      note: ['EX']
+
+    - name: Nitro Charge
+      input: kick kick
+      note: ['EX', 'Hold to delay', 'Properties change during V-Trigger I']
+
+    - name: Drop Back
+      input: kick kick (hold button) > back
+
+    - name: Dynamite Punch
+      input: kick kick > punch
+
+    - name: Avalanche Press
+      input: kick kick > kick
+
+    - name: Bay Area Sunrise
+      input: kick kick > lp lk
+
+    - name: Nitro Hungabee High
+      input: kick kick > mp mk
+
+    - name: Nitro Hungabee Low
+      input: kick kick > down + mp mk
+
+    - name: Metro Crash
+      input: hp hk
+      note: ['During V-Trigger II', 'Hold buttons to change properties']
+
+  unique_attack:
+    - name: Abi Hammer
+      input: forward + mp
+
+    - name: Abi Lift
+      input: forward + hp (Properties change during V-Trigger I)
+    
+    - name: Abi Blaster
+      input: back + hp (Properties change during V-Trigger I)
+
+    - name: Vroom Vroom
+      input: lp > lp
+
+    - name: Bang Bang
+      input: down + lp > down + lp
+
+    - name: Abi Twist
+      input: back + hp > hp (Properties change during V-Trigger I)
+
+  vsystem:
+    - name: Max Power
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Hybrid Charge
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Hungabee High
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Hungabee Low
+      input: down + mp mk
+      note: ['V-Skill']
+
+    - name: Ontario Drop
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Abigail Special
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Red Leaf
+      input: forward or neutral + lp lk
+
+    - name: Hit & Run
+      input: back + lp lk

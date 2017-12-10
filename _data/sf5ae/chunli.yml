@@ -1,0 +1,81 @@
+- character: Chun-Li
+  vitality: 950
+  stun: 950
+
+  special_move:
+    - name: Kikoken
+      input: chback forward + punch
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Hyakuretsukyaku
+      input: qcf + kick or kick (repeat button)
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Airborne Hyakuretsukyaku
+      input: (during up or upforward jump) qcf + kick
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Spinning Bird Kick
+      input: chdown up + kick
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Kikosho
+      input: (During V-Trigger II) hp hk
+      note: ['Hold buttons to change properties']
+
+  unique_attack:
+    - name: Tsuitotsuken
+      input: back or forward + mp
+
+    - name: Hakkei
+      input: back + hp
+
+    - name: Senenshu
+      input: downforward + mk
+
+    - name: Tenkukyaku
+      input: back + hk
+
+    - name: Yokusenkyaku
+      input: forward + hk
+
+    - name: Kakukyakuraku
+      input: downforward + hk
+
+    - name: Yosokyaku
+      input: (in air) down + mk
+      note: ['Can be performed three times in sequence']
+
+    - name: Wall Jump
+      input: (during jump near wall) upforward
+
+  vsystem:
+    - name: Renkiko
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Kikosho
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Rankyaku
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Sohakkei
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Hoyokusen
+      input: qcf qcf + kick
+
+  normal_throw:
+    - name: Koshuto
+      input: forward or neutral + lp lk
+
+    - name: Tenshin Shushu
+      input: back + lp lk
+
+    - name: Ryuseiraku
+      input: (in air) lp lk

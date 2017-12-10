@@ -1,0 +1,29 @@
+# - { name: Akuma, status: empty }
+- { name: Abigail }
+- { name: Akuma }
+- { name: Alex }
+- { name: Balrog, aka: Boxer }
+- { name: Birdie }
+- { name: Cammy }
+- { name: Chun-Li }
+- { name: Dhalsim }
+- { name: Ed }
+- { name: F.A.N.G }
+- { name: Guile }
+- { name: Ibuki }
+- { name: Juri }
+- { name: Karin }
+- { name: Ken }
+- { name: Kolin }
+- { name: Laura }
+- { name: M. Bison, aka: Dictator }
+- { name: Menat }
+- { name: Nash }
+- { name: Necalli }
+- { name: R. Mika }
+- { name: Rashid }
+- { name: Ryu }
+- { name: Urien }
+- { name: Vega, aka: Claw }
+- { name: Zangief }
+- { name: Zeku }

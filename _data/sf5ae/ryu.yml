@@ -1,0 +1,76 @@
+- character: Ryu
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: Hadoken
+      input: qcf + punch
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Shoryuken
+      input: dpf + punch
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Tatsumaki Senpukyaku
+      input: qcb + kick
+      note: ['EX']
+
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (during upforward jump) qcb + kick
+      note: ['EX']
+
+    - name: Jodan Sokutou Geri
+      input: qcf + kick
+      note: ['EX']
+
+    - name: Isshin
+      input: (During V-Trigger II) hp hk
+
+  unique_attack:
+    - name: Collarbone Breaker
+      input: forward + mp
+      note: ['Overhead']
+
+    - name: Solar Plexus Strike
+      input: forward + hp
+
+    - name: Axe Kick
+      input: back + hk
+      note: ['Forces opponent to stand on hit']
+
+    - name: Jodan Nirengeki
+      input: hp > hk
+
+    - name: Jodan Sanrengeki
+      input: mp > hp > hk
+
+  vsystem:
+    - name: Denjin Renki
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Kakko Fubatsu
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Mind's Eye
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Hashogeki
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Shinku Hadoken
+      input: qcf qcf + punch
+
+    - name: Denjin Hadoken
+      input: (during V-Trigger I) qcf qcf + punch
+
+  normal_throw:
+    - name: Shoulder Throw
+      input: forward or neutral + lp lk
+
+    - name: Somersault Throw
+      input: back + lp lk
