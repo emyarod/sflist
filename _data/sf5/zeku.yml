@@ -5,31 +5,35 @@
   special_move:
     - name: Bushin Gram - Koku
       input: qcf + kick
-      note: ['EX']
+      note: ['EX', 'Old']
 
     - name: Bushin Gram - Ban
       input: dpf + kick
-      note: ['EX']
+      note: ['EX', 'Old']
 
     - name: Bushin Gram - Teki
       input: qcb + kick
-      note: ['EX']
+      note: ['EX', 'Old']
 
     - name: Bushin Jakura
       input: qcf + punch
-      note: ['EX']
+      note: ['EX', 'Old']
 
     - name: -- Bushin Gekirinchu
       input: ... > punch
+      note: ['Old']
 
     - name: -- Bushin Kirinkyaku
       input: ... > kick
+      note: ['Old']
 
     - name: -- Bushin Tengen
       input: ... > lp lk
+      note: ['Old']
 
     - name: Shukumyo
       input: down down + punch punch
+      note: ['Old']
     
     - name: Idaten
       input: hp hk
@@ -39,9 +43,93 @@
       input: hp hk
       note: ['During Idaten, or during an Idaten attack']
 
+    - name: Bushin Sho
+      input: qcf + punch
+      note: ['EX', 'Young']
+
+    - name: Hayagake
+      input: qcf + kick
+      note: ['EX', 'Young']
+
+    - name: Tozetsu
+      input: qcf + kick > lk
+      note: ['EX', 'Young']
+
+    - name: Ashikari
+      input: qcf + kick > mk
+      note: ['EX', 'Young']
+
+    - name: Gekkou
+      input: qcf + kick > hk
+      note: ['EX', 'Young']
+
+    - name: Hozanto
+      input: qcb + punch
+      note: ['EX', 'Young']
+
+    - name: Bushin Sangako Otoshi
+      input: qcf + punch
+      note: ['EX', 'During up or upforward jump (close to opponent in air)', 'Young']
+
+    - name: Shukumyo
+      input: down down + punch punch
+
   unique_attack:
     - name: Nouten Wari
       input: forward + hp
+      note: ['Old']
+
+    - name: Kubi Kudaki
+      input: forward + hp
+      note: ['Young']
+
+    - name: Kaeshi Saiha
+      input: hp > hp
+      note: ['Young']
+      
+    - name: Kaeshi Urasaiha
+      input: down + hp > down + hp
+      note: ['Young']
+
+    - name: Kagerou
+      input: hp > hp > mp mk
+      note: ['Young']
+
+    - name: Urakagerou
+      input: down + hp > down + hp > mp hk
+      note: ['Young']
+
+    - name: Bushin Soukosou
+      input: mp > hp
+      note: ['Young']
+
+    - name: Bushin Gokusanken - Ni
+      input: lp > hp
+      note: ['Young']
+
+    - name: Bushin Gokusanken - San
+      input: lp > mp
+      note: ['Young']
+
+    - name: Bushin Gokusanken - Shu
+      input: lp > mp > hp > hk
+      note: ['Young']
+
+    - name: Bushin Gokusanage
+      input: lp > mp > hp > down + hk
+      note: ['Young']
+
+    - name: Sankaku Tobi
+      input: forward
+      note: ['During jump near wall', 'Young']
+
+    - name: Hassou Tobi
+      input: punch
+      note: ['During wall jump, near the wall', 'Young']
+
+    - name: Bushin Shidenkyaku
+      input: kick
+      note: ['During wall jump, near the wall', 'Young']
 
   vsystem:
     - name: Bushinryu Shingekiko
@@ -50,7 +138,11 @@
 
     - name: Fukuro
       input: mp mk
-      note: ['V-Skill', 'Change properties with the directional buttons on hit']
+      note: ['V-Skill', 'Change properties with the directional buttons on hit', 'Old']
+
+    - name: Tenpo Kari
+      input: mp mk
+      note: ['V-Skill', 'Change properties with the directional buttons on hit', 'Young']
 
     - name: Toushi
       input: (during guard) forward + ppp
@@ -63,6 +155,16 @@
   normal_throw:
     - name: Tsurigane Otoshi
       input: forward or neutral + lp lk
+      note: ['Old']
 
     - name: Mikoshi
       input: back + lp lk
+      note: ['Old']
+      
+    - name: Tesso
+      input: forward or neutral + lp lk
+      note: ['Young']
+
+    - name: Raiju
+      input: back + lp lk
+      note: ['Young']
