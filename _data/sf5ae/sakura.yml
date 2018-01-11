@@ -1,0 +1,80 @@
+- character: Sakura
+  vitality: 950
+  stun: 950
+
+  special_move:
+    - name: Hadoken
+      input: qcf + punch
+      note: ['EX', 'Changes during V-Trigger I', 'Hold buttons to change properties']
+
+    - name: Tengyo Hadoken
+      input: qcf + kick
+      note: ['EX', 'Changes during V-Trigger I', 'Hold buttons to change properties']
+
+    - name: Shouoken
+      input: dpf + punch
+      note: ['EX', 'Changes during V-Trigger II']
+
+    - name: Shunpukyaku
+      input: qcb + kick
+      note: ['EX', 'Changes during V-Trigger II']
+
+    - name: Airborne Shunpukyaku
+      input: (during upforward jump) qcb + kick
+      note: ['EX']
+
+    - name: Hogasho
+      input: hp hk
+      note: ['During V-Trigger I']
+
+  unique_attack:
+    - name: Floral Kick
+      input: forward + mk
+
+    - name: Furiko Upper
+      input: back + hp
+
+    - name: Chin Buster Kick
+      input: downforward + hk
+
+  vsystem:
+    - name: Haru Arashi
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Sakura Senpu
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Haru Kaze
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: -- Sakura Otoshi
+      input: ... punch
+      note: ['Input possible up to 3 times']
+
+    - name: -- Oukakyaku
+      input: ... kick
+
+    - name: Kashinfu
+      input: (close to opponent) lp lk
+
+    - name: Floral Spin
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Sakura Rain
+      input: qcf qcf + punch
+      note: ['Properties change during V-Trigger I']
+
+  normal_throw:
+    - name: Hanakaze
+      input: forward or neutral + lp lk
+
+    - name: Sakura Shoulder Throw
+      input: back + lp lk
+
+    - name: Sailor Hop
+      input: (in air) lp lk
