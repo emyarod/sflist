@@ -4,11 +4,15 @@
 - { name: Alex }
 - { name: Balrog, aka: Boxer }
 - { name: Birdie }
+- { name: Blanka, status: empty }
 - { name: Cammy }
 - { name: Chun-Li }
+- { name: Cody, status: empty }
 - { name: Dhalsim }
 - { name: Ed }
 - { name: F.A.N.G }
+- { name: Falke, status: empty }
+- { name: G, status: empty }
 - { name: Guile }
 - { name: Ibuki }
 - { name: Juri }
@@ -23,6 +27,8 @@
 - { name: R. Mika }
 - { name: Rashid }
 - { name: Ryu }
+- { name: Sagat, status: empty }
+- { name: Sakura, status: empty }
 - { name: Urien }
 - { name: Vega, aka: Claw }
 - { name: Zangief }
