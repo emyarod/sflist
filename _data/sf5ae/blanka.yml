@@ -1,0 +1,83 @@
+- character: Blanka
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: Rolling Attack
+      input: chback forward + punch
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Back Step Rolling
+      input: chback forward + kick
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Vertical Rolling
+      input: chdown up + kick
+      note: ['EX', 'Changes during V-Trigger I']
+
+    - name: Wild Hunt
+      input: hcb + punch
+      note: ['EX', 'Command grab']
+
+    - name: Electric Thunder
+      input: punch (repeat button)
+      note: ['EX', 'Rapid press for additional inputs', 'Properties change during V-Trigger I']
+
+    - name: Ground Shave Rolling
+      input: (During V-Trigger I) hp hk
+      note: ['Hold buttons to change properties']
+
+    - name: Rolling Cannon
+      input: (During V-Trigger II) (Control Rolling Attack direction) + hp hk
+
+  unique_attack:
+    - name: Rock Crusher
+      input: forward + mp
+
+    - name: Amazon River Run
+      input: downforward + hp
+
+    - name: Raging Bash
+      input: mk > hk > hp
+
+    - name: Supprise Forward
+      input: forward + kick or (During Coward Crouch) forward + kick
+
+    - name: Supprise Back
+      input: back + kick or (During Coward Crouch) back + kick
+
+  vsystem:
+    - name: Jungle Dynamo
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Lightning Beast
+      input: hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Coward Crouch
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Wild Lift
+      input: mp mk > punch
+      note: ['V-Skill']
+
+    - name: Raid Jump
+      input: mp mk > kick
+      note: ['V-Skill']
+
+    - name: Quick Rolling
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Dynamic Rolling
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Wild Fang
+      input: forward or neutral + lp lk
+
+    - name: Jungle Wheel
+      input: back + lp lk
