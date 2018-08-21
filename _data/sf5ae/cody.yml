@@ -1,0 +1,118 @@
+- character: Cody
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: Zonk Knuckle
+      input: punch (hold and release)
+      note: ['EX']
+
+    - name: Tornado Sweep
+      input: (while empty-handed) qcf + punch
+      note: ['EX']
+
+    - name: Snipe Shot
+      input: (while holding knife) hp hk
+      note: ['During V-Trigger I']
+
+    - name: Anti-Air Snipe Shot
+      input: (while holding knife) down + hp hk
+      note: ['During V-Trigger I']
+
+    - name: Reload
+      input: (before getting knife) hp hk
+      note: ['During V-Trigger I']
+
+    - name: Rapid Fire
+      input: (while holding knife) qcb + punch
+      note: ['During V-Trigger I']
+
+    - name: Gentle Swing
+      input: (while holding pipe) hp hk
+      note: ['During V-Trigger II']
+
+    - name: Gentle Upper Swing
+      input: (while holding pipe) down + hp hk
+      note: ['During V-Trigger II']
+
+    - name: Bean Ball
+      input: (while holding pipe) qcb + punch
+      note: ['During V-Trigger II']
+
+    - name: Present Delivery
+      input: (while holding pipe) qcb + punch > hp hk
+      note: ['During V-Trigger II']
+
+    - name: Unluck Gift
+      input: (while holding pipe) qcb + punch > down + hp hk
+      note: ['During V-Trigger II']
+
+    - name: Toss & Smash
+      input: (while holding pipe) hcb + kick
+      note: ['During V-Trigger II']
+
+  unique_attack:
+    - name: Axel Knuckle
+      input: forward + hp
+      note: ['Properties change during V-Trigger II']
+
+    - name: Hammer Kick
+      input: forward + hk
+
+    - name: Bad Spray
+      input: (when recovering in place) up + punch
+
+    - name: Slip Jab
+      input: lp > lp
+
+    - name: Crime Blow
+      input: lp > lp > lp
+
+    - name: Final Combination
+      input: lp > lp > lp > lp
+
+    - name: Final Combo Throw
+      input: lp > lp > lp > down + lp
+
+    - name: Air Raid Punch
+      input: (during upforward jump) mp > hp
+
+    - name: Air Raid Kick
+      input: (during upforward jump) mk > lk
+
+    - name: Crack Combination
+      input: forward + hk > mp mk
+
+    - name: Burst Shot
+      input: (During V-Trigger I) (while holding knife) mp > hp
+
+  vsystem:
+    - name: Side Arm
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Dirty Coach
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Double Kick
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Prison Breaker
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Criminal Punisher
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Trash Out
+      input: forward or neutral + lp lk
+
+    - name: Crime Throw
+      input: back + lp lk
+
+    - name: Secret Work
+      input: (during V-Trigger II) forward or neutral + lp lk
