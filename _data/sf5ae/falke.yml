@@ -1,0 +1,82 @@
+- character: Falke
+  vitality: 950
+  stun: 950
+
+  special_move:
+    - name: Psycho Kugel
+      input: punch (hold and release)
+
+    - name: Psycho Kanonen
+      input: down + punch (hold and release)
+
+    - name: Psycho Feder
+      input: (during jump) punch (hold and release)
+
+    - name: Psycho Schneide
+      input: punch punch
+      note: ['EX']
+
+    - name: Katapult
+      input: kick kick
+      note: ['EX']
+
+    - name: Psycho Schrot
+      input: hp hk
+      note: [During V-Trigger I]
+
+    - name: Psycho Panzer
+      input: down + hp hk
+      note: [During V-Trigger I]
+
+    - name: Psycho Jaeger
+      input: (during jump) hp hk
+      note: [During V-Trigger I]
+
+    - name: Psycho Sturm
+      input: hp hk
+      note: [During V-Trigger II]
+
+    - name: Psycho Klinge
+      input: down + hp hk
+      note: [During V-Trigger II]
+
+  unique_attack:
+    - name: Psycho Spitze
+      input: forward + hp
+
+    - name: Blaukraehe
+      input: downforward + hk
+
+    - name: Luftjagd
+      input: (during upforward jump) down + mk
+
+  vsystem:
+    - name: Staerken
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Psycho Angriff
+      input: hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Psycho Trombe
+      input: mp mk
+      note: ['V-Skill', 'Properties change during V-Trigger II']
+
+    - name: Psycho Impulse
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Psycho Fluegel
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Wirbel Wind
+      input: forward or neutral + lp lk
+
+    - name: Luftstrom
+      input: back + lp lk
+
+    - name: Windstoss
+      input: (in air) lp lk
