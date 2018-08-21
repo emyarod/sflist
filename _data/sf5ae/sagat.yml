@@ -1,0 +1,67 @@
+- character: Sagat
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: Tiger Shot
+      input: qcf + punch
+      note: ['EX']
+
+    - name: Grand Tiger Shot
+      input: qcf + kick
+      note: ['EX']
+
+    - name: Tiger Uppercut
+      input: dpf + punch (properties change after V-Skill)
+      note: ['EX']
+
+    - name: Tiger Knee Crush
+      input: dpf + kick
+      note: ['EX']
+
+    - name: Tiger Cannon
+      input: (during V-Trigger II) hp hk
+
+    - name: Tiger Spike
+      input: (during V-Trigger II) hp hk (hold buttons to change properties)
+
+    - name: Tiger Rush
+      input: (during V-Trigger II) forward + hp hk
+
+  unique_attack:
+    - name: Tiger Heavy Elbow
+      input: forward + hp
+
+    - name: Step High Kick
+      input: forward + hk
+
+    - name: Step Low Kick
+      input: forward + mk
+
+  vsystem:
+    - name: Tiger Charge
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Tiger Assault
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Angry Charge
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Tiger Revenge
+      input: (during guard) forward + kkk
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Tiger Rampage
+      input: qcf qcf + kick
+
+  normal_throw:
+    - name: Tiger Hang
+      input: forward or neutral + lp lk
+
+    - name: Tiger Swing
+      input: back + lp lk
