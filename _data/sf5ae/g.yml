@@ -1,0 +1,87 @@
+- character: G
+  vitality: 1000
+  stun: 1000
+
+  special_move:
+    - name: G Smash Over
+      input: dpf + punch (G Charge-supported attack)
+      note: ['EX', 'Properties change during V-Trigger I']
+
+    - name: G Smash Under
+      input: dpf + kick (G Charge-supported attack)
+      note: ['EX', 'Properties change during V-Trigger I']
+
+    - name: G Burst
+      input: qcf + punch (G Charge-supported attack)
+      note: ['EX', 'Properties change during V-Trigger I']
+
+    - name: G Spin Kick
+      input: qcf + kick (G Charge-supported attack)
+      note: ['EX', 'Properties change during V-Trigger I']
+
+    - name: G Impact
+      input: (close to opponent) hcb + kick
+      note: ['EX', 'Properties change during V-Trigger I']
+
+    - name: G Charge
+      input: down down + punch punch (hold buttons to change properties)
+
+    - name: G Charge (Cancel)
+      input: (during a G Charge-supported attack) punch punch
+
+    - name: G Explosion
+      input: (during V-Trigger II) hp hk (G Charge-supported attack)
+
+    - name: G Rage
+      input: (During V-Trigger II) down + hp hk
+
+  unique_attack:
+    - name: Wild President
+      input: forward + hp (G Charge-supported attack)
+
+    - name: Strong President
+      input: back + hp (G Charge-supported attack)
+
+    - name: Crash President
+      input: forward + hk
+
+    - name: Flying President
+      input: (during upforward jump) down + mp
+
+    - name: Message To The People
+      input: down down + kick kick (hold buttons to change properties) or (during a G Charge-supported attack) kick kick
+
+  vsystem:
+    - name: Maximum President
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Dangerous President
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: G Barrier
+      input: mp mk (G Charge-supported attack)
+      note: ['V-Skill', 'Properties change during V-Trigger I']
+
+    - name: Airborne G Barrier
+      input: (during up or upforward jump) mp mk
+      note: ['V-Skill', 'Properties change during V-Trigger I']
+
+    - name: G Revenge
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Pangaea Burst
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Violence President
+      input: forward or neutral + lp lk
+
+    - name: Shining President
+      input: (while opponent is crouching) forward or neutral + lp lk
+
+    - name: Destroy President
+      input: back + lp lk
