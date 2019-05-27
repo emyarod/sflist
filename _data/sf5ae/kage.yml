@@ -1,0 +1,89 @@
+- character: Kage
+  vitality: 900
+  stun: 950
+
+  special_move:
+    - name: Hadoken
+      input: qcf + punch
+      note: ['EX']
+
+    - name: Airborne Hadoken
+      input: (during upforward jump) qcf + punch
+      note: ['EX']
+
+    - name: Shakunetsu Hadoken
+      input: hcb + punch
+      note: ['EX']
+
+    - name: Shoryuken
+      input: dpf + punch
+      note: ['EX']
+
+    - name: Kurekijin
+      input: qcb + kick
+      note: ['EX']
+
+    - name: Airborne Kurekijin
+      input: (during upforward jump) qcb + kick
+      note: ['EX']
+
+    - name: Ryusokyaku
+      input: hcf + kick
+      note: ['EX']
+
+    - name: Ashura Senku
+      input: neutral or back + hp hk (can be done in air)
+      note: ['During V-Trigger I']
+
+    - name: Misogi
+      input: hp hk
+      note: ['During V-Trigger II']
+
+  unique_attack:
+    - name: Zugaihasatsu
+      input: forward + mp
+
+    - name: Kikokuduki
+      input: forward + hp
+
+    - name: Kikokuretsuzan
+      input: forward + hp > hk
+
+    - name: Tenmakujinkyaku
+      input: (during upforward jump) down + mk
+
+  vsystem:
+    - name: Taigyaku Mudo
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Rikudo Osatsu
+      input: hp hk
+      note: ['V-Trigger II', '3 stocks']
+
+    - name: Senha Kassatsu
+      input: mp mk
+      note:
+        [
+          'V-Skill',
+          'Hold buttons to change properties',
+          'Properties change during V-Trigger I',
+        ]
+
+    - name: Senbugeki
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Metsu Shoryuken
+      input: qcf qcf + punch
+
+    - name: Shun Goku Satsu
+      input: (during V-Trigger II) lp lp forward lk hp
+
+  normal_throw:
+    - name: Shoulder Throw
+      input: forward or neutral + lp lk
+
+    - name: Somersault Throw
+      input: back + lp lk
