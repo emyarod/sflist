@@ -1,0 +1,70 @@
+- character: Poison
+  vitality: 950
+  stun: 950
+
+  special_move:
+    - name: Avant Line
+      input: qcf + punch
+      note: ['EX']
+
+    - name: Heart Raid
+      input: qcb + punch (hold to delay) (while holding button, press kick button to cancel)
+      note: ['EX']
+
+    - name: Shocking Heel
+      input: qcf + kick
+      note: ['EX']
+
+    - name: Love Me Tender
+      input: qcb + kick
+      note: ['EX']
+
+    - name: Fire Squall
+      input: neutral or back + hp hk
+      note: ['During V-Trigger I']
+
+    - name: Toxic Hold
+      input: hp hk
+      note: ['During V-Trigger II']
+
+    - name: Toxic Bind
+      input: forward + hp hk
+      note: ['During V-Trigger II']
+
+  unique_attack:
+    - name: Whiplash
+      input: (during upforward jump) forward + hp
+
+    - name: Slap & Smash
+      input: (during jump) mp > hp
+
+    - name: Slap & Slash
+      input: (during jump) mp > forward + hp
+
+  vsystem:
+    - name: Poison Cocktail
+      input: hp hk
+      note: ['V-Trigger I', '2 stocks']
+
+    - name: Toxic Glamor
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Perfume Swing
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Power Cord
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Love Hurricane
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Slap Shot
+      input: forward or neutral + lp lk
+
+    - name: Frankensteiner
+      input: back + lp lk
