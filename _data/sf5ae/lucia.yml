@@ -1,0 +1,91 @@
+- character: Lucia
+  vitality: 950
+  stun: 950
+
+  special_move:
+    - name: Gun Smoke
+      input: qcf + punch
+      note: ['EX']
+
+    - name: Rough Chase
+      input: qcf + punch > punch
+
+    - name: Tornado Spinner
+      input: qcf + punch > kick
+      note: ['Properties change during V-Trigger I']
+
+    - name: Cyclone Spinner
+      input: qcf + punch > mp mk
+      note: ['Properties change during V-Trigger I']
+
+    - name: Braking
+      input: qcf + punch > back
+
+    - name: Firecracker
+      input: qcf + kick
+      note: ['EX', 'Properties change during V-Trigger I']
+
+    - name: Flipper Shot
+      input: qcf + kick > kick
+      note: ['Properties change during V-Trigger I']
+
+    - name: Fire Spinner
+      input: qcb + kick
+      note: ['EX', 'Properties change during V-Trigger I']
+
+    - name: Firecracker
+      input: dpf + kick
+      note: ['EX', 'Properties change during V-Trigger I']
+
+    - name: Tactical Weapon
+      input: (During V-Trigger II) hp hk
+
+  unique_attack:
+    - name: Knee Slide
+      input: downforward + lk
+
+    - name: Elbow Crush
+      input: forward + hp
+
+    - name: Quick Side-Kick
+      input: lp > lk
+
+    - name: Spin Drive
+      input: lp > lk > mk
+
+    - name: Street-Style Set
+      input: lp > lk > mk > hk
+
+    - name: Carry Bonus
+      input: lp > lk > mk > down + punch
+
+    - name: Drop Target
+      input: (during jump) mp > hp
+
+  vsystem:
+    - name: Burning Fight
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Weapon Fury
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Tap-Kick
+      input: mp mk
+      note: ['V-Skill', 'Properties change during V-Trigger I']
+
+    - name: RaidenHammer Knuckle
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Hard Hit Knee
+      input: qcb qcb + kick
+
+  normal_throw:
+    - name: German Suplex
+      input: forward or neutral + lp lk
+
+    - name: Back-Carry Throw
+      input: back + lp lk
