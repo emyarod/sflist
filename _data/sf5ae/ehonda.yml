@@ -1,0 +1,79 @@
+- character: E. Honda
+  vitality: 1050
+  stun: 1025
+
+  special_move:
+    - name: Hundred Hand Slap
+      input: punch (repeat button)
+      note: ['EX']
+
+    - name: Sumo Headbutt
+      input: chback forward + punch
+      note: ['EX']
+
+    - name: Sumo Smash
+      input: chdown up + kick
+      note: ['EX']
+
+    - name: Oicho Throw
+      input: hcb + punch
+      note: ['EX']
+
+    - name: Oni-Daikaku
+      input: hp hk (hold buttons to change properties)
+      note: ['During V-Trigger I']
+
+    - name: Oni-Muso
+      input: hp hk > hp hk
+      note: ['During V-Trigger I']
+
+    - name: Iwato Biraki
+      input: hp hk
+      note: ['During V-Trigger II']
+
+  unique_attack:
+    - name: Harai-Geri
+      input: forward + hk
+
+    - name: Chikara-Ashi
+      input: downforward + hk
+
+    - name: Flying Sumo Press
+      input: (during upforward jump) down + mk
+
+    - name: Tokoshizume
+      input: mp > downforward + hk
+
+    - name: Tsurane Harite
+      input: lp > mp
+
+    - name: Hirate
+      input: lp > mp > mp mk
+
+  vsystem:
+    - name: Onigawara
+      input: hp hk
+      note: ['V-Trigger I', '3 stocks']
+
+    - name: Tajikarao
+      input: hp hk
+      note: ['V-Trigger II', '2 stocks']
+
+    - name: Neko Damashi
+      input: mp mk
+      note: ['V-Skill']
+
+    - name: Raiden-Ho
+      input: (during guard) forward + ppp
+      note: ['V-Reversal']
+
+  critical_art:
+    - name: Kamigashima
+      input: qcf qcf + punch
+
+  normal_throw:
+    - name: Saba-Ori
+      input: forward or neutral + lp lk
+
+    - name: Tawara Throw
+      input: back + lp lk
